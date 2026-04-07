@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: extension/pnpm-lock.yaml
+
+      - name: Install extension dependencies
+        run: cd extension && pnpm install --frozen-lockfile
+
+      - name: Export course data
+        run: cd .lesson-runner && node export-prompts.js
+
+      - name: Verify all 108 lessons exported
+        run: |
+          cd .lesson-runner
+          node --input-type=module -e "
+            import { readFileSync } from 'fs';
+            const d = JSON.parse(readFileSync('./course-data.json', 'utf-8'));
+            const total = d.weeks.reduce((s, w) => s + w.days.length, 0);
+            if (d.weeks.length !== 18) { console.error('Expected 18 modules, got', d.weeks.length); process.exit(1); }
+            if (total !== 108) { console.error('Expected 108 lessons, got', total); process.exit(1); }
+            d.weeks.forEach(w => w.days.forEach(day => {
+              if (day.dayNum < 6 && day.hours.length === 0) { console.error(w.slug + '/' + day.slug + ' has 0 hours'); process.exit(1); }
+              if (day.dayNum < 6 && day.checklist.length === 0) { console.error(w.slug + '/' + day.slug + ' has 0 checklist items'); process.exit(1); }
+            }));
+            console.log('All 18 modules, 108 lessons verified');
+          "
+
+      - name: Copy course data to extension
+        run: cp .lesson-runner/course-data.json extension/media/course-data.json
+
+      - name: Build extension
+        run: cd extension && pnpm build
+
+      - name: Package .vsix
+        run: cd extension && npx @vscode/vsce package --no-dependencies
