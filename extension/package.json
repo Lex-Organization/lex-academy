@@ -1,0 +1,63 @@
+{
+  "name": "lex-academy",
+  "displayName": "Lex: Academy",
+  "description": "Learn frontend engineering by building a real e-commerce store — 18 interactive modules powered by any AI assistant",
+  "version": "1.0.0",
+  "publisher": "lex-code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lex-Organization/lex-academy"
+  },
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Education"],
+  "keywords": [
+    "frontend",
+    "course",
+    "learn",
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwind",
+    "ai-tutor",
+    "interactive",
+    "tutorial"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "frontend-course",
+          "title": "Lex: Academy",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "frontend-course": [
+        {
+          "type": "webview",
+          "id": "frontendCourse.dashboard",
+          "name": ""
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "frontendCourse.openLesson",
+        "title": "Lex: Academy — Open Dashboard"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node build.js",
+    "package": "pnpm build && npx @vscode/vsce package --no-dependencies"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "esbuild": "^0.20.0",
+    "@vscode/vsce": "^2.22.0"
+  }
+}

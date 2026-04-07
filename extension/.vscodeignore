@@ -1,0 +1,6 @@
+src/
+node_modules/
+build.js
+tsconfig.json
+pnpm-lock.yaml
+.gitignore
