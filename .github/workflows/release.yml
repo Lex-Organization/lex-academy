@@ -38,12 +38,6 @@ jobs:
       - name: Package .vsix
         run: cd extension && npx @vscode/vsce package --no-dependencies
 
-      - name: Upload .vsix artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: vsix
-          path: extension/*.vsix
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
