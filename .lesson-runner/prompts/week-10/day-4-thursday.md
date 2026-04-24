@@ -80,7 +80,7 @@ Explain that for dynamic routes, `generateStaticParams` tells Next.js which para
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store product browsing experience with dynamic routing, navigation, and breadcrumbs. Work in `workspace/week-10/day-4/`.
+Build the embroidery store product browsing experience with dynamic routing, navigation, and breadcrumbs. Work in `workspace/nextjs-store`.
 
 ### Step 1: Product Data Layer
 Create `lib/products.ts` with an array of 8 embroidery products: slug, name, price, description, category, sizes, colors, imageUrl, embroideryType, careInstructions, rating, reviewCount. Organize products into categories: t-shirts (3), hoodies (2), tote-bags (2), accessories (1). Export `getProducts()`, `getProduct(slug)`, `getProductsByCategory(category)`, and `getCategories()`.
@@ -162,7 +162,7 @@ The next lesson is build day. You will combine everything from this module — r
 - [ ] Called `notFound()` for invalid product slugs
 - [ ] Built breadcrumb navigation that reflects the current route hierarchy
 - [ ] Can explain the difference between `[slug]`, `[...slug]`, and `[[...slug]]` in own words
-- [ ] All exercise code saved in `workspace/week-10/day-4/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

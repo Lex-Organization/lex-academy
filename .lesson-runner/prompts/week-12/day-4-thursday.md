@@ -13,8 +13,8 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks, built a data dashboard
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components, built an e-commerce storefront
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, built a blog platform
-- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a bookmarks/notes manager
+- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, ported the embroidery store to Next.js
+- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a embroidery store data layer
 - Module 12, Lesson 1: Middleware — request interception, redirects, rewrites, auth guards
 - Module 12, Lesson 2: Authentication — Auth.js v5, GitHub OAuth, credentials, sessions, role-based access
 - Module 12, Lesson 3: Database — Prisma + Neon Postgres, schema design, migrations, relations, queries
@@ -84,10 +84,10 @@ Explain `generateMetadata` — an async function that generates metadata based o
 
 ## Hour 2: Guided Building (60 min)
 
-Build SEO-optimized blog pages with proper images, fonts, and metadata. Work in `workspace/week-12/day-4/`.
+Build SEO-optimized blog pages with proper images, fonts, and metadata. Work in `workspace/nextjs-store`.
 
 ### Step 1: Project Setup with Fonts
-Create a Next.js project. Set up fonts in `app/layout.tsx`:
+Continue the Next.js embroidery store. Set up fonts in `app/layout.tsx`:
 - `Inter` as the primary font applied to `<body>`
 - `Fira Code` or `JetBrains Mono` as a monospace font via CSS variable
 - Configure Tailwind to use these font families (`tailwind.config.ts` `fontFamily` extend)
@@ -230,7 +230,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Built the portfolio challenge with all image, font, and metadata requirements
 - [ ] Ran a Lighthouse audit and fixed the top 3 issues
 - [ ] Can explain why `next/image` is better than `<img>` and what `sizes` does in own words
-- [ ] All exercise code saved in `workspace/week-12/day-4/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

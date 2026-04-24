@@ -217,7 +217,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Dark mode works across every admin page
 - [ ] Responsive layout tested at mobile, tablet, and desktop
 - [ ] Can explain how the admin dashboard composes shadcn components for complex interfaces in own words
-- [ ] All exercise code saved in `workspace/week-16/day-5/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

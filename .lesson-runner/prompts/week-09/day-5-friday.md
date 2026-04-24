@@ -10,8 +10,8 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: ES2022+ JavaScript, async/await, fetch, modules, closures, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — primitives, interfaces, unions, generics, type narrowing, discriminated unions
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types, template literals, DOM typing
-- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built component library, forms, product list, task board, messaging app, Recipe Book.
-- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built GitHub search, weather dashboard, OTP input, Rich Text Toolbar, Employee Directory, Country Data Dashboard.
+- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built reusable store components, product lists, forms, cart interactions, and the React embroidery storefront.
+- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built product fetching, persistent cart effects, performant filtering, custom hooks, refs, and store interaction patterns.
 - Module 8: React patterns & architecture — Context API, useReducer, error boundaries, Suspense, lazy loading, compound components. Built theme/auth/notification contexts, shopping cart, app shell, compound components, e-commerce storefront.
 - Module 9, Lesson 1: React 19 — use() hook, useTransition, Suspense-integrated data fetching. Built async data explorer.
 - Module 9, Lesson 2: Form handling — useActionState, native forms + Zod validation. Built multi-step form wizard.
@@ -194,7 +194,7 @@ Review the complete React architecture learned over Modules 5-8:
 - **Module 8:** Context, reducers, error handling, compound components — the architecture patterns
 - **Module 9:** React 19, Context + useReducer, native forms + Zod, testing — the modern production stack
 
-Ask: "If you were starting a new React project from scratch the next lesson, what would your architecture look like? What tools would you reach for?"
+Ask: "If you were evolving this React store into a production Next.js application next lesson, what would your architecture look like? What tools would you reach for?"
 
 ### Phase 3 Retrospective (15 min)
 The student has now completed all four React weeks. Discuss:
@@ -230,7 +230,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] At least one compound component has accessibility tests (ARIA attributes, keyboard nav)
 - [ ] Full test suite passes: at least 20 tests via `npx vitest run`
 - [ ] Can explain the architectural improvements from Module 8 to Module 9, in own words
-- [ ] All exercise code saved in `workspace/week-09/day-5/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

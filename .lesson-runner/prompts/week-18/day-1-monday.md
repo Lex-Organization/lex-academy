@@ -9,12 +9,12 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: JavaScript ES2022+, async/await, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — interfaces, unions, generics, type narrowing
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types
-- Module 6: React fundamentals — JSX, components, props, useState, built a recipe/movie app
+- Module 6: React fundamentals — JSX, components, props, useState, built the React embroidery store
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js App Router, routing, Server/Client Components, built a blog platform
-- Module 11: Next.js data fetching, Server Actions, caching/ISR, built a bookmarks manager
+- Module 10: Next.js App Router, routing, Server/Client Components, ported the embroidery store to Next.js
+- Module 11: Next.js data fetching, Server Actions, caching/ISR, built the store data and actions layer
 - Module 12: NextAuth.js, Prisma + Neon Postgres, images/fonts/metadata/SEO
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
@@ -52,7 +52,7 @@ Pick the strongest one and elevate it to portfolio quality.
 
 **Option 2: Build a new capstone project**
 If none of the existing projects feel portfolio-worthy, plan a new one that showcases the full stack:
-- A SaaS dashboard with real-time data
+- The embroidery store admin dashboard with real order and product data
 - A collaborative tool (notes, kanban, planning)
 - An AI-powered productivity app
 - A developer tools platform
@@ -229,7 +229,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Deployed to Vercel with working production URL
 - [ ] Core feature implementation started and working end-to-end
 - [ ] Can explain the project's purpose and technical stack in 30 seconds in own words
-- [ ] All exercise code saved in `workspace/week-18/day-1/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

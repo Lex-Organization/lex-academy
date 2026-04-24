@@ -1,210 +1,184 @@
-# Lesson 1 (Module 17) — AI Development Tools Landscape
+# Lesson 1 (Module 17) - What AI Coding Agents Are
 
 ## Context for AI Tutor
 This is a 4-hour hands-on session. Remember: you are warm, conversational, and human. Follow the teaching style from the preamble above.
-The student is building a real project throughout the course: **an embroidery e-commerce store** for custom t-shirts and embroidery work. 
+
+The student is building a real project throughout the course: **an embroidery e-commerce store** for custom t-shirts and embroidery work.
 
 **Previous days completed:**
-- Module 1: HTML5 semantics, accessibility, ARIA, CSS Flexbox, CSS Grid, modern CSS
-- Module 2: JavaScript ES2022+, async/await, DOM manipulation, built a vanilla JS app
-- Module 4: TypeScript fundamentals — interfaces, unions, generics, type narrowing
-- Module 5: TypeScript advanced — utility types, mapped types, conditional types
-- Module 6: React fundamentals — JSX, components, props, useState, built a recipe/movie app
-- Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks
-- Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components
-- Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js App Router, routing, Server/Client Components, built a blog platform
-- Module 11: Next.js data fetching, Server Actions, caching/ISR, built a bookmarks manager
-- Module 12: NextAuth.js, Prisma + Neon Postgres, images/fonts/metadata/SEO
-- Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
-- Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
-- Module 16: shadcn/ui, complex forms, DataTable, Command palette, accessibility, built admin dashboard
+- Module 1: HTML5 semantics, accessibility, CSS layout, and the first static embroidery store page
+- Module 2: JavaScript DOM, events, forms, cart interactions, and modern syntax
+- Module 3: async JavaScript, fetch, modules, persistence, OOP, and error handling
+- Module 4: TypeScript fundamentals with product, cart, and order types
+- Module 5: TypeScript in practice and a typed store migration
+- Module 6: React fundamentals with product cards, grids, filtering, and cart state
+- Module 7: React effects, refs, performance, and custom hooks
+- Module 8: React state patterns, routing, Context, reducers, and error boundaries
+- Module 9: forms, validation, testing, and modern React
+- Module 10: Next.js App Router, layouts, route groups, dynamic routes, and loading/error UI
+- Module 11: Server Components, Server Actions, caching, route handlers, and full-stack data flow
+- Module 12: auth, database-backed data, image/font/metadata optimization, and SEO
+- Module 13: full-stack project planning, tickets, checkout, and core user flows
+- Module 14: order management, admin dashboard, advanced search, CI, deployment, and polish
+- Module 15: Tailwind CSS, E2E testing, animations, and performance profiling
+- Module 16: shadcn/ui, design systems, advanced forms, DataTable, Command palette, and accessibility
 
-**This lesson's focus:** AI development tools landscape — Claude Code, Cursor, v0, Copilot, and how to use AI effectively for frontend development
-**This lesson's build:** AI-assisted component generation and comparison
+**Today's focus:** AI coding tools and agents - what they are, how they see context, and what engineers still own
+**Today's build:** An AI collaboration guide and context packet for the embroidery store
 
-**Story so far:** The embroidery store is feature-complete, professionally styled with shadcn/ui, accessible, tested, and deployed. Now it is time to learn the tools that are transforming how frontend developers work. AI coding assistants, UI generators, and LLM-powered features are becoming standard in the industry. This lesson you survey the landscape — Claude Code, Cursor, v0, Copilot — and learn to use AI effectively as a development accelerator, not a replacement for understanding.
+**Story so far:** The store is now a serious project: typed, tested, accessible, styled, and deployed. The next skill is not "let AI do the work." It is learning how a professional engineer pairs with AI without giving up judgment. Today you map the AI tooling landscape, learn what agents are good and bad at, and create a reusable context packet that helps any assistant understand the store before touching code.
+
+**Work folder:** `workspace/nextjs-store`
 
 ## Hour 1: Concept Deep Dive (60 min)
 
-### 1.1 — The AI Developer Tools Landscape (15 min)
-Survey the current AI tools a frontend developer should know:
-- **Code assistants (in-editor):** GitHub Copilot, Cursor, Codeium, Supermaven — autocomplete and chat in the IDE
-- **Code agents (agentic):** Claude Code, Cursor Composer, Windsurf, Codex — multi-file editing, terminal access, autonomous task execution
-- **UI generators:** v0 by Vercel (generates shadcn/ui components from descriptions), bolt.new, Lovable — full app scaffolding from prompts
-- **API-based AI:** OpenAI API, Anthropic API, Google Gemini API — for building AI features into apps
-- **AI SDKs:** Vercel AI SDK, LangChain, LlamaIndex — frameworks for building AI-powered applications
+### AI tools vs. AI agents
+Explain the landscape at a high level:
+- **Chat assistants:** ChatGPT, Claude, Gemini - good for explanation, planning, review, and isolated snippets
+- **IDE assistants:** Copilot, Cursor, Codeium - good for autocomplete, local edits, and codebase-aware questions
+- **Coding agents:** Codex, Claude Code, Cursor Agent, Windsurf - can inspect files, edit multiple files, run tests, and iterate
+- **UI generators:** v0, Lovable, Bolt - useful for prototypes and visual exploration, but still require engineering review
+- **AI product SDKs:** useful when building AI features into an app, but that is not the main focus this week
 
-Discuss the difference between "AI tools for building" vs. "AI as a feature in what you build." This week covers both.
+Make the distinction clear: this module is about **using AI as an engineering partner**, not building an AI chatbot or custom AI platform.
 
-Ask the student: "You've been using an AI assistant as your tutor this entire course. How would using an AI code assistant in your editor change your workflow? What would you still need to do yourself?"
+Ask: "When an AI agent edits code, what parts of the work still belong to you as the engineer?"
 
-### 1.2 — Effective AI Prompting for Code (15 min)
-Teach principles for getting high-quality code from AI tools:
-- **Be specific:** "Create a React component" vs. "Create a shadcn/ui Card component with TypeScript that displays a user profile with avatar, name, role badge, and email. Include hover effect and dark mode support."
-- **Provide context:** Share types, existing patterns, and constraints
-- **Iterate:** Start broad, then refine — "Now add a loading skeleton state" / "Make the avatar component handle missing images"
-- **Verify:** Always read and understand generated code before using it
-- **Specify the stack:** "Using Next.js 14 App Router, shadcn/ui, Tailwind CSS, and TypeScript"
-- Anti-patterns: blindly accepting code, not testing generated code, prompting without understanding what you want
+### How agents see the world
+Teach the student's mental model:
+- AI only knows the context it is given or can inspect
+- It can miss hidden assumptions, design intent, and user expectations
+- It may optimize for a local fix while damaging architecture
+- It can be confidently wrong, especially when APIs, versions, or project conventions have changed
+- It is strongest when the task is specific, bounded, and verifiable
 
-**Exercise:** Write three increasingly specific prompts for the same task: "Build a notification component." Start with the vaguest prompt and refine until the prompt would produce exactly what you need. Compare the likely output quality of each.
+Exercise: Take one store feature and list what an AI would need to know before changing it: files, user flow, state ownership, tests, accessibility constraints, and visual expectations.
 
-### 1.3 — v0 by Vercel for Component Generation (15 min)
-Teach how v0 works and when to use it:
-- v0 generates shadcn/ui + Tailwind CSS components from natural language descriptions
-- It produces real, copy-pasteable React code (not screenshots)
-- Best for: UI exploration, prototyping layouts, getting a starting point for complex components
-- Limitations: generated code may need cleanup, doesn't know your specific codebase context
-- The workflow: describe in v0 -> generate -> iterate in v0 -> copy to your project -> customize
+### The engineer remains the owner
+Teach ownership boundaries:
+- AI can propose; the engineer decides
+- AI can edit; the engineer reviews
+- AI can generate tests; the engineer chooses meaningful coverage
+- AI can explain code; the engineer verifies against the actual codebase
+- AI can move fast; the engineer protects product quality
 
-**Exercise:** Open v0.dev and generate a component using a detailed prompt. Suggested prompt: "A dashboard stat card with an icon, metric label, large number value, percentage change indicator with up/down arrow, and a sparkline mini-chart. Use shadcn Card, support dark mode." Examine the generated code — what would you keep? What would you change?
+Use a craft analogy: "AI is like a powerful embroidery machine. It can stitch quickly, but you still choose the pattern, inspect the tension, catch mistakes, and decide whether the piece is good enough to sell."
 
-### 1.4 — AI-Assisted Debugging and Refactoring (10 min)
-Teach how to use AI tools for code improvement:
-- Pasting error messages with context for debugging
-- "Explain this code" for understanding unfamiliar patterns
-- "Refactor this component to use..." for modernization
-- "What are the accessibility issues in this component?"
-- "Write tests for this function" — AI excels at generating test cases
-- The key skill: knowing when to use AI vs. when to figure it out yourself
+### Good AI tasks vs. risky AI tasks
+Create a two-column list with the student.
 
-**Exercise:** Take one of the more complex components from Module 14 (the DataTable or multi-step form). Identify an area for improvement. Write a prompt that would help an AI assistant refactor it. Then evaluate whether the prompt is good enough — would the AI have enough context?
+Good AI tasks:
+- Explain unfamiliar code
+- Find likely causes of a bug
+- Draft a refactor plan
+- Generate test cases
+- Compare implementation options
+- Apply a bounded UI cleanup
 
-### 1.5 — AI Ethics and Professional Practice (5 min)
-Discuss the professional implications:
-- Always understand code you ship — you're responsible for it, not the AI
-- Don't paste proprietary code into public AI tools without permission
-- AI-generated code can have bugs, security issues, and license concerns
-- In interviews, you'll be expected to write code without AI — keep your skills sharp
-- AI is a multiplier, not a replacement — the better developer you are, the better you use AI
+Risky AI tasks:
+- Large unreviewed rewrites
+- Security-sensitive changes without expert review
+- Business logic changes with unclear requirements
+- "Make it better" prompts with no acceptance criteria
+- Accepting generated code without running it
+
+### Professional AI practice
+Discuss:
+- Do not paste proprietary code into tools without permission
+- Do not paste secrets, API keys, customer data, or private logs
+- Keep a record of important AI-assisted decisions
+- Understand code before shipping it
+- Practice without AI sometimes so fundamentals stay sharp
 
 ## Hour 2: Guided Building (60 min)
 
-Walk the student through building components with AI assistance, then comparing and improving them.
+### Step 1: Create an AI collaboration guide
+Create `docs/ai-collaboration.md` in the store project.
 
-### Step 1 — Generate a complex component with v0 (15 min)
-Together, use v0 to generate a component:
-- Prompt: "A file upload area with drag-and-drop support, file type validation, progress indicators for each file, and a file list showing name, size, type icon, and remove button. Use shadcn components."
-- Examine the generated code together
-- Copy it into the project
-- Identify what needs to be fixed or improved (types, accessibility, integration with existing code)
+Include:
+- Project summary: embroidery e-commerce store
+- Tech stack: Next.js, TypeScript, Tailwind, shadcn/ui, tests
+- Important commands: install, dev, build, test, typecheck
+- Coding standards: component boundaries, accessibility, responsive design, naming conventions
+- State ownership: what lives in server data, client state, URL state, local storage, or forms
+- Review expectations: every AI change must be read, tested, and checked against UX
 
-### Step 2 — Improve the generated component (15 min)
-Refactor the v0-generated code:
-- Add proper TypeScript types (the generated code might use `any`)
-- Fix any accessibility issues
-- Match the project's code style and patterns
-- Add features v0 might have missed (keyboard interaction, error states)
-- Integrate with the project's theme tokens
+### Step 2: Create a reusable context packet
+Add a section called "Context packet template." It should include:
+- Goal
+- Current behavior
+- Desired behavior
+- Relevant files
+- Constraints
+- Acceptance criteria
+- Verification commands
+- Risks to watch
 
-### Step 3 — AI-assisted test generation (15 min)
-Use AI to generate tests for the component:
-- Write a prompt: "Generate Vitest + Testing Library tests for this file upload component. Test: rendering, drag and drop simulation, file validation, remove file, progress display."
-- Review the generated tests — which are good? Which need fixing?
-- Run the tests and fix any failures
-- Discuss: AI is excellent at generating test scaffolding but may miss edge cases
+Exercise: Fill the template for a small store task, such as "improve the empty cart state" or "make product card badges more readable."
 
-### Step 4 — Build a component showcase using AI-generated components (15 min)
-Use a combination of hand-written and AI-assisted components to build a showcase:
-- Generate 2-3 additional components using v0 or prompts (e.g., a pricing table, a testimonial carousel, a feature comparison grid)
-- Integrate them into a showcase page
-- Compare the quality of AI-generated vs. hand-written components
-- Discuss: when is AI generation faster? When is hand-writing better?
+### Step 3: Practice prompt quality
+Write three prompts for the same task:
+1. Vague prompt: "Improve the product card."
+2. Better prompt: includes goal, files, and constraints.
+3. Professional prompt: includes acceptance criteria, visual behavior, accessibility, and test expectations.
+
+Ask the student to compare which prompt is most likely to produce usable work and why.
 
 ## Hour 3: Independent Challenge (60 min)
 
-**Challenge: Build a component library page using a mix of hand-written and AI-assisted components.**
+### Challenge: AI readiness audit
+Audit the embroidery store as if you were about to hand one bounded task to an AI agent.
 
-### Requirements:
-Build a "Component Library" documentation page with at least 6 components, using this workflow:
-1. Write 3 components entirely by hand (using everything learned in Modules 13-14)
-2. Generate 3 components using AI tools (v0, or by writing detailed prompts and implementing the result)
-3. Every component must meet the same quality bar regardless of origin
+Create `docs/ai-readiness-audit.md` with:
+- The feature area chosen
+- What context is clear
+- What context is missing
+- Which files the agent should inspect
+- What the agent should not touch
+- The exact prompt you would give
+- How you would verify the result
 
-**Required components (choose 3 to hand-write and 3 to AI-generate):**
-- **Stat card with sparkline** — metric value, trend indicator, mini chart
-- **User activity timeline** — vertical timeline with events, timestamps, and avatars
-- **Pricing comparison table** — features as rows, plans as columns, checkmarks/crosses
-- **Testimonial carousel** — auto-rotating cards with quotes, photos, and company logos
-- **File tree viewer** — collapsible tree structure (like VS Code's file explorer)
-- **Kanban board column** — draggable cards in a column with header and add button (drag not required, just the static layout)
+The goal is not to run the agent yet. The goal is to learn how to prepare the work so AI is useful instead of chaotic.
 
-**Quality requirements for ALL components:**
-- Full TypeScript types (no `any`)
-- Responsive design
-- Dark mode support
-- Accessible (keyboard navigable, proper ARIA attributes)
-- Uses shadcn/ui primitives where appropriate
-- Documented with at least a comment block explaining props
+## Hour 4: Review & Final Polish (60 min)
 
-**Documentation page requirements:**
-- Each component displayed with its name, description, and a rendered example
-- A label on each component indicating "Hand-written" or "AI-assisted"
-- If AI-assisted, include the prompt used to generate it
+### Code and document review
+Review both documents:
+- Are the instructions specific enough for another engineer?
+- Are the acceptance criteria observable?
+- Are verification commands included?
+- Are secrets and private data explicitly excluded?
+- Are ownership boundaries clear?
 
-### Acceptance criteria:
-- 6 components total, 3 hand-written and 3 AI-assisted
-- All components meet the same quality bar
-- AI-assisted components have been reviewed and improved from their initial generation
-- The documentation page is clean and well-organized
-- The student can articulate what was faster about AI-generation and what required manual intervention
+### Key takeaways
+1. AI tools are not one thing: chat assistants, IDE copilots, coding agents, UI generators, and SDKs solve different problems.
+2. Pairing with AI is an engineering workflow: frame the task, provide context, constrain scope, review the diff, and verify behavior.
+3. The engineer still owns quality, architecture, privacy, accessibility, and shipped behavior.
 
-## Hour 4: Review & Stretch Goals (60 min)
-
-### Code Review (20 min)
-Review all 6 components. For each one:
-- Is it immediately obvious which were AI-generated and which were hand-written? (Ideally, no)
-- Quality check: types, accessibility, responsiveness, dark mode
-- Code style consistency: do AI-generated components match the project's conventions?
-- What improvements were made to AI-generated code?
-
-### Reflection Discussion (15 min)
-Discuss the experience:
-- Which components were faster to build by hand vs. with AI?
-- What kinds of tasks benefit most from AI assistance?
-- What are the risks of over-relying on AI for code generation?
-- How would you integrate AI tools into a professional workflow?
-- What's the skill ceiling — at what point do better developer skills stop mattering?
-
-### Stretch Goal (20 min)
-If time remains: Use AI to generate a complete landing page layout from a single detailed prompt. Then critically evaluate every aspect of the generated code: performance, accessibility, SEO, code quality, and design taste. Create a "review document" as if you were reviewing a junior developer's PR.
-
-### Wrap-up (5 min)
-**Three key takeaways:**
-1. AI tools are powerful multipliers but require developer judgment — you must understand the code you ship
-2. The quality of AI output is directly proportional to the specificity of your prompt and the context you provide
-3. AI excels at scaffolding and repetitive patterns; developers add the domain expertise, accessibility, and edge case handling
-
-**Preview of in the next lesson:** We'll dive into building AI features into applications using the Vercel AI SDK — streaming chat interfaces, text generation, and connecting to AI providers.
-
-**Coming up next:** AI tools help you write code faster, but what about building AI into your applications? Next up: the Vercel AI SDK — `useChat`, `streamText`, providers, and streaming UI patterns. You will build a chat interface with real-time token streaming.
+### Next lesson preview
+Tomorrow you will use the context packet to pair with AI on a real store improvement. The focus will be task framing, plan review, and iterative implementation - not handing over control.
 
 ## Checklist
-
-Before moving to the next day, ALL items must be checked:
-
-- [ ] Can articulate the differences between code assistants (Copilot), code agents (Claude Code), UI generators (v0), and AI SDKs (Vercel AI SDK)
-- [ ] Generated at least one component using v0.dev and integrated it into a project
-- [ ] Improved AI-generated code: added proper types, fixed accessibility, matched project conventions
-- [ ] Built 3 components by hand and 3 with AI assistance, all meeting the same quality bar
-- [ ] Created a component library documentation page showing all 6 components
-- [ ] Used AI to generate test cases for a component
-- [ ] Can explain when AI assistance is most valuable and when hand-writing is better in own words
-- [ ] All exercise code saved in `workspace/week-17/day-1/`
+- [ ] Can explain the difference between chat assistants, IDE assistants, coding agents, UI generators, and AI product SDKs
+- [ ] Can explain what AI agents can and cannot safely own in a codebase
+- [ ] Created `docs/ai-collaboration.md` for the embroidery store
+- [ ] Created a reusable context packet template
+- [ ] Wrote vague, better, and professional prompts for the same task
+- [ ] Created `docs/ai-readiness-audit.md` for one store feature area
+- [ ] Identified verification commands for AI-assisted work
+- [ ] Can explain why the engineer remains responsible for AI-generated code
+- [ ] All code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 
-Remember: you are a warm, friendly human tutor — not a textbook. Start with a greeting. Use humor. Get excited when the student gets something right. One concept at a time, then STOP and wait. Make this fun.
+Remember: you are a warm, friendly human tutor - not a textbook. Start with a greeting. Use humor. Get excited when the student gets something right. One concept at a time, then STOP and wait. Make this fun.
 
 ## Teaching Rules
-- Lead with discovery — show the problem before the solution
-- When the student is close: ask a Socratic question to help them see it
-- When the student is way off: be direct but kind, break it into smaller pieces
+- Lead with discovery - show the problem before the solution
+- When the student is close: Socratic question. When way off: direct but kind
 - Never say "it's easy" or "it's simple"
-- Specific praise: "Nice, you caught that X" not just "Good job"
-- Confidence check every 15-20 min (1-5 scale, below 3 = slow down)
-- Connect concepts to the embroidery store whenever natural
-- Use embroidery analogies: "Components are like embroidery patterns — design once, stitch everywhere"
-- If the student is flying through material, skip ahead; if struggling, add more examples
-- Production-quality code always — no toy examples
+- Specific praise, not generic
+- Confidence check every 15-20 min (1-5)
+- Connect to the store, embroidery analogies welcome
+- Skip ahead if flying; slow down if struggling
+- Production-quality thinking always

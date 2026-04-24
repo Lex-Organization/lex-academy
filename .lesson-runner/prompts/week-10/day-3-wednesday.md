@@ -64,7 +64,7 @@ In each case, does the storefront nav bar and banner stay visible?
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store with polished loading, error, and not-found states. Work in `workspace/week-10/day-3/`.
+Build the embroidery store with polished loading, error, and not-found states. Work in `workspace/nextjs-store`.
 
 ### Step 1: Data Layer with Simulated Delay
 Create `lib/products.ts` with embroidery product data and functions that return Promises with artificial delays (`await new Promise(r => setTimeout(r, 1500))`). Add a function that randomly throws an error 30% of the time to test error handling. Products include: "Wildflower Embroidered Tee", "Mountain Sunset Hoodie", "Botanical Tote", "Custom Name Beanie", etc.
@@ -147,7 +147,7 @@ In the next lesson we cover navigation in depth — the `Link` component, `useRo
 - [ ] Store has per-page loading skeletons that match each page's content
 - [ ] Storefront layout (nav, banner) remains visible during loading and error states
 - [ ] Can explain the relationship between `loading.tsx` and React Suspense in own words
-- [ ] All exercise code saved in `workspace/week-10/day-3/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

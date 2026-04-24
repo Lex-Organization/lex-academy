@@ -9,12 +9,12 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: JavaScript ES2022+, async/await, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — interfaces, unions, generics, type narrowing
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types
-- Module 6: React fundamentals — JSX, components, props, useState, built a recipe/movie app
+- Module 6: React fundamentals — JSX, components, props, useState, built the React embroidery store
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js App Router, routing, Server/Client Components, built a blog platform
-- Module 11: Next.js data fetching, Server Actions, caching/ISR, built a bookmarks manager
+- Module 10: Next.js App Router, routing, Server/Client Components, ported the embroidery store to Next.js
+- Module 11: Next.js data fetching, Server Actions, caching/ISR, built the store data and actions layer
 - Module 12: NextAuth.js, Prisma + Neon Postgres, images/fonts/metadata/SEO
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
@@ -95,10 +95,10 @@ Teach the framework for answering frontend system design questions:
 
 The key insight: frontend system design is about component boundaries, state management, and data flow — not about databases and microservices.
 
-### 2.2 — Practice: Design a Chat Application (20 min)
+### 2.2 — Practice: Design a Store Support Inbox (20 min)
 Walk through a system design exercise:
 
-**Prompt:** "Design the frontend architecture for a real-time chat application like Slack."
+**Prompt:** "Design the frontend architecture for a real-time customer support inbox inside the embroidery store."
 
 Guide the student through:
 - **Clarify:** How many channels? Real-time or polling? File uploads? Search?
@@ -112,7 +112,7 @@ Guide the student through:
 ### 2.3 — Practice: Design a Dashboard (15 min)
 Second system design exercise:
 
-**Prompt:** "Design the frontend for an analytics dashboard that shows real-time metrics."
+**Prompt:** "Design the frontend for the embroidery store admin analytics dashboard with real-time metrics."
 
 Guide the student through the same framework:
 - Component architecture for charts, filters, data tables
@@ -295,14 +295,14 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Written interview-ready answers for at least 5 JavaScript/TypeScript questions
 - [ ] Written interview-ready answers for at least 5 React questions
 - [ ] Written interview-ready answers for at least 3 Next.js questions
-- [ ] Completed 2 frontend system design exercises (chat app and dashboard)
+- [ ] Completed 2 frontend system design exercises (store support inbox and admin dashboard)
 - [ ] Solved the `useDebounce` custom hook coding challenge
-- [ ] Built an autocomplete component from scratch as a coding exercise
+- [ ] Built a store search autocomplete component as a coding exercise
 - [ ] Prepared STAR-format answers for at least 2 behavioral questions
 - [ ] Created a personal interview preparation document with talking points
 - [ ] Completed a full day-in-the-life simulation (standup, ticket, branch, implement, PR, review feedback)
 - [ ] Can deliver a 60-second portfolio project demo pitch smoothly in own words
-- [ ] All exercise code and notes saved in `workspace/week-18/day-4/`
+- [ ] Interview notes and practice answers organized for review
 
 ## Personality Reminder
 

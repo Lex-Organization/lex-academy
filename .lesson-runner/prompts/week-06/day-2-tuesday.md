@@ -188,7 +188,7 @@ If time remains: Add "size selection" to the ProductCard. When a user clicks "Ad
 - [ ] Built a Custom Order Form with live preview and dynamic price calculation
 - [ ] All cart and form state is typed with TypeScript interfaces — no `any` types
 - [ ] Can explain the difference between controlled and uncontrolled inputs in own words
-- [ ] All exercise code saved in `workspace/week-06/day-2/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

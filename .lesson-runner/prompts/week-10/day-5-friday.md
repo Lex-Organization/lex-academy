@@ -22,13 +22,13 @@ The student is building a real project throughout the course: **an embroidery e-
 **This lesson's focus:** Combine everything from this module into the complete embroidery store on Next.js
 **This lesson's build:** Embroidery store ported to Next.js with full routing, loading/error states, and navigation
 
-**Story so far:** File-based routing, Server Components for zero-JS product pages, loading skeletons, error boundaries, dynamic product routes with clean slugs, breadcrumb navigation — today they all come together. You build the complete Stitch & Thread embroidery store on Next.js from scratch, applying every concept from this module into one cohesive application.
+**Story so far:** File-based routing, Server Components for zero-JS product pages, loading skeletons, error boundaries, dynamic product routes with clean slugs, breadcrumb navigation — today they all come together. You build the complete Stitch & Thread embroidery store on Next.js, applying every concept from this module into one cohesive application.
 
 ## Hour 1: Planning & Architecture (60 min)
 
 ### Project: Stitch & Thread — The Next.js Embroidery Store
 
-This lesson you are building the complete storefront from scratch in Next.js. This is not incremental work on previous exercises — start fresh in `workspace/week-10/day-5/`.
+This lesson you are building the complete storefront in Next.js. This is not incremental work on previous exercises — continue in `workspace/nextjs-store`.
 
 ### Step 1: Define the Requirements Together
 Walk through the requirements with the student. Let the student ask clarifying questions.
@@ -59,7 +59,7 @@ Ask the student to sketch the component tree before writing code. Identify:
 - What the data layer looks like (lib/products.ts, lib/orders.ts)
 
 ### Step 3: Set Up the Project
-Create a new Next.js project with TypeScript and Tailwind. Set up the folder structure with all route groups and empty page files. Create the data layer in `lib/`:
+Continue the Next.js embroidery store with TypeScript and Tailwind. Set up the folder structure with all route groups and empty page files. Create the data layer in `lib/`:
 - `lib/products.ts` — 10+ embroidery products with slug, name, price, description, sizes, colors, category, embroideryType, careInstructions, imageUrl, rating, reviewCount, inStock, featured flag
 - `lib/reviews.ts` — 3-5 reviews per product with author, rating, date, comment
 - `lib/orders.ts` — 5 sample past orders with status, items, totals
@@ -169,7 +169,7 @@ In the next lesson is interview and quiz day. Review all the concepts from this 
 **Coming up next:** The store is in Next.js but data is still mocked with hardcoded arrays. Next week: real data fetching in Server Components, Server Actions for cart mutations, caching strategies for performance, and REST API endpoints — the store gets its full-stack backend.
 
 ## Checklist
-- [ ] Created a new Next.js embroidery store project with TypeScript and Tailwind from scratch
+- [ ] Created the Next.js embroidery store project with TypeScript and Tailwind
 - [ ] Implemented three route groups with distinct layouts (storefront, account, checkout)
 - [ ] Built a product listing page as a Server Component with category filtering
 - [ ] Built dynamic `/products/[slug]` pages with `generateStaticParams` and `notFound()` handling
@@ -179,7 +179,7 @@ In the next lesson is interview and quiz day. Review all the concepts from this 
 - [ ] Server/Client boundary is correct — no unnecessary `"use client"` directives
 - [ ] Active link highlighting works across storefront and account navigation
 - [ ] TypeScript compiles with zero errors (`npx tsc --noEmit`)
-- [ ] All exercise code saved in `workspace/week-10/day-5/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

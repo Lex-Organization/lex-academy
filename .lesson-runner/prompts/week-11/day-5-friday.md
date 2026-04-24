@@ -29,7 +29,7 @@ The student is building a real project throughout the course: **an embroidery e-
 
 ### Project: Stitch & Thread — Full-Stack Store
 
-Build the full-stack embroidery store from scratch combining all techniques from this module. Start fresh in `workspace/week-11/day-5/`.
+Extend the full-stack embroidery store by combining all techniques from this module. Continue in `workspace/nextjs-store`.
 
 ### Step 1: Define Requirements Together
 
@@ -63,7 +63,7 @@ Walk through each page with the student. Identify:
 - Caching: products (revalidate 5min), inventory (no-store), reviews (revalidate 60s, tag-based), categories (cache indefinitely)
 
 ### Step 3: Set Up Project
-Create Next.js project with TypeScript and Tailwind. Create the data layer:
+Continue the Next.js project with TypeScript and Tailwind. Create the data layer:
 - `lib/data/products.ts` — in-memory store with async CRUD functions
 - `lib/data/cart.ts` — in-memory cart store
 - `lib/data/reviews.ts` — in-memory reviews store
@@ -191,7 +191,7 @@ In the next lesson is interview and quiz day. Review data fetching, Server Actio
 - [ ] Loading skeletons match content layout for all major pages
 - [ ] Submit buttons show pending state with `useFormStatus`
 - [ ] TypeScript compiles with zero errors (`npx tsc --noEmit`)
-- [ ] All exercise code saved in `workspace/week-11/day-5/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

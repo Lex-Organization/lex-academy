@@ -173,7 +173,7 @@ const results = productFilter(products); // Product[]
 
 ## Hour 2: Guided Building (60 min)
 
-Build generic data structures for the store. Create in `workspace/week-04/src/structures/`.
+Build generic data structures for the store. Create in `workspace/vanilla-storesrc/structures/`.
 
 ### Step 1: Generic Result Type (`result.ts`)
 Full implementation with helper functions:
@@ -364,7 +364,7 @@ In the next lesson: type narrowing, type guards, and discriminated unions in dep
 - [ ] Built generic service layer: CrudService<T>, FormManager<T>, SortedCollection<T>
 - [ ] Used generic structures in the store: Collection<Product>, Cache for filtered results, Result<CartSummary>
 - [ ] Can explain "add the minimum constraint needed" principle in own words
-- [ ] All exercise code saved in `workspace/week-04/day-3/`
+- [ ] All exercise code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

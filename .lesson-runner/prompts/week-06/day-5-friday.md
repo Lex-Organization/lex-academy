@@ -18,13 +18,13 @@ The student is building a real project throughout the course: **an embroidery e-
 **This lesson's focus:** Build day — apply all Module 6 skills in a complete React product catalog with cart functionality
 **This lesson's build:** Complete embroidery store React storefront
 
-**Story so far:** You've learned components, state, events, conditional rendering, and composition. This lesson you build a complete React storefront from scratch -- product grid, filtering, cart, wishlist, and checkout. This replaces your vanilla JS store entirely, and it's built with the patterns that real React applications use.
+**Story so far:** You've learned components, state, events, conditional rendering, and composition. This lesson you build a complete React storefront -- product grid, filtering, cart, wishlist, and checkout. This is the React evolution of your vanilla JS store, and it's built with the patterns that real React applications use.
 
 ## Hour 1: Architecture & Setup (60 min)
 
 ### Project: Embroidery Store — React Storefront
 
-The student will build a complete, polished React storefront from scratch, consolidating all of this module's code into one cohesive application. Guide the student through planning before coding.
+The student will build a complete, polished React storefront, consolidating all of this module's code into one cohesive application. Guide the student through planning before coding.
 
 ### Step 1 — Requirements discussion (15 min)
 Present the requirements and discuss:
@@ -171,7 +171,7 @@ Next week dives into React Hooks: `useEffect` for fetching products from an API 
 - [ ] All empty states handled (empty cart, empty wishlist, no search results)
 - [ ] All TypeScript interfaces defined — no `any` types in the codebase
 - [ ] Can explain where each piece of state lives and why, in own words
-- [ ] All exercise code saved in `workspace/week-06/day-5/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

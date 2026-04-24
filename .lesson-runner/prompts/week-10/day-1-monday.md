@@ -80,9 +80,9 @@ Briefly explain that `template.tsx` is like `layout.tsx` but re-mounts on every 
 **Exercise:** Ask the student: "You want to track which product pages customers visit for analytics — fire a pageview event every time they navigate to a different product. Should you put that logic in the products `layout.tsx` or `template.tsx`? Why?"
 
 ### 6. Creating the Embroidery Store Project
-Walk through `npx create-next-app@latest` options: TypeScript, ESLint, Tailwind CSS, App Router, src/ directory. Explain each option. Create the project together in `workspace/week-10/day-1/`.
+Walk through `npx create-next-app@latest` options: TypeScript, ESLint, Tailwind CSS, App Router, src/ directory. Explain each option. Create the project together in `workspace/nextjs-store`.
 
-**Exercise:** Have the student run the command and create a new Next.js project named `stitch-studio`. Review the generated folder structure together. Ask the student to identify the root layout, the root page, and where global styles live.
+**Exercise:** Have the student run the command and create the Next.js version of the embroidery store in `workspace/nextjs-store`. Review the generated folder structure together. Ask the student to identify the root layout, the root page, and where global styles live.
 
 ### Environment Variables (20 min)
 Before we go further, let's learn how Next.js handles secrets and configuration.
@@ -211,7 +211,7 @@ In the next lesson we tackle the most important mental model in modern Next.js: 
 **Coming up next:** The routing works, but every component uses `"use client"` right now. Next.js has a powerful concept called Server Components — components that render on the server, send zero JavaScript to the browser, and can access your database directly. In the next lesson: the Server Component mental model that changes how you think about rendering.
 
 ## Checklist
-- [ ] Created a Next.js project with App Router and TypeScript in `workspace/week-10/day-1/`
+- [ ] Created a Next.js project with App Router and TypeScript in `workspace/nextjs-store`
 - [ ] Built a storefront route group with home, products, product detail, cart, and category nav
 - [ ] Built an account route group with sidebar layout and orders, wishlist, settings pages
 - [ ] Built a checkout route group with a minimal distraction-free layout
@@ -221,7 +221,7 @@ In the next lesson we tackle the most important mental model in modern Next.js: 
 - [ ] Wrote a PR description for today's Next.js migration work (What, Why, How to test)
 - [ ] Created .env.local with public and secret variables and understands the NEXT_PUBLIC_ boundary
 - [ ] Can explain the difference between `layout.tsx` and `template.tsx` in own words
-- [ ] All exercise code saved in `workspace/week-10/day-1/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

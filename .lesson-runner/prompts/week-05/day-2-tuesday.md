@@ -466,7 +466,7 @@ In the next lesson, the student dives into `tsconfig.json` and learns to read Ty
 - [ ] Built typed localStorage helpers using a schema interface and generics
 - [ ] Built `getElement<T>`, `addClickHandler`, and `onFormSubmit` DOM helpers for the store
 - [ ] Used the typed helpers to replace raw DOM calls in at least one section of the store
-- [ ] All exercise code saved in `workspace/vanilla-store/`
+- [ ] All code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

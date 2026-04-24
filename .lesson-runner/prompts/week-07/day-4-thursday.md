@@ -296,7 +296,7 @@ If time remains: Build a `useMediaQuery` hook and a derived `useBreakpoint` hook
 - [ ] Built useRecentlyViewed with localStorage persistence and duplicate prevention
 - [ ] Built useProductFilters composing category, price range, stock, and sort with activeFilterCount
 - [ ] Can explain when to extract a custom hook vs keeping logic inline, in own words
-- [ ] All exercise code saved in `workspace/week-07/day-4/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

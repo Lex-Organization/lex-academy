@@ -326,7 +326,7 @@ If time remains: Add `React.startTransition` to page navigation. When switching 
 - [ ] Built category routes with filters, breadcrumbs, and active navigation links
 - [ ] Completed a code review exercise, identifying at least 3 issues in a teammate's PR
 - [ ] Can explain the difference between client-side routing (React Router) and file-based routing (Next.js)
-- [ ] All exercise code saved in `workspace/week-08/day-3/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

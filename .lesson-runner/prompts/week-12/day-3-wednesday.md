@@ -13,8 +13,8 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks, built a data dashboard
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components, built an e-commerce storefront
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, built a blog platform
-- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a bookmarks/notes manager
+- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, ported the embroidery store to Next.js
+- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a embroidery store data layer
 - Module 12, Lesson 1: Middleware — request interception, redirects, rewrites, auth guards
 - Module 12, Lesson 2: Authentication — Auth.js v5, GitHub OAuth, credentials provider, sessions, role-based access
 
@@ -82,10 +82,10 @@ Explain Neon serverless Postgres: free tier, connection pooling, branching. Walk
 
 ## Hour 2: Guided Building (60 min)
 
-Build a database-backed blog with Prisma and Neon. Work in `workspace/week-12/day-3/`.
+Build a database-backed blog with Prisma and Neon. Work in `workspace/nextjs-store`.
 
 ### Step 1: Project Setup
-Create a Next.js project. Install Prisma:
+Continue the Next.js embroidery store. Install Prisma:
 ```bash
 npm install prisma @prisma/client
 npx prisma init
@@ -253,7 +253,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Built the task management challenge with 5 related models
 - [ ] Resolved a git merge conflict
 - [ ] Can explain the difference between `prisma migrate dev` and `prisma db push` in own words
-- [ ] All exercise code saved in `workspace/week-12/day-3/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

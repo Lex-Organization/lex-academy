@@ -264,7 +264,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Built a multi-step "Design Your Own" custom order form with per-step validation
 - [ ] Form submissions show loading state and success toast feedback
 - [ ] Can explain how shadcn Form wraps native forms + Zod into a unified API in own words
-- [ ] All exercise code saved in `workspace/week-16/day-2/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

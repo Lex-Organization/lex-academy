@@ -35,7 +35,7 @@ This is the halfway point of the 18-week course. Today's interview and quiz cove
 - Module 9: Next.js App Router — routing, layouts, Server/Client Components, loading/error/not-found, dynamic routes
 - Module 10: Next.js data — Server Component fetching, Server Actions, caching (memoization, data cache, route cache, ISR), Route Handlers
 - Module 11: Next.js advanced — middleware, Auth.js, Prisma + Postgres, next/image, next/font, metadata/SEO
-- Module 12: Full-stack bookmarks manager integrating auth, middleware, Prisma, images, fonts, metadata
+- Module 12: Full-stack embroidery store integrating auth, middleware, Prisma, images, fonts, metadata
 - Module 13: Full-stack store (Sprint 1) — architecture, sprint planning, homepage, catalog, product detail, cart, checkout, order creation
 - Module 14: Full-stack store (Sprint 2) — accounts, admin, search, CI/CD, performance, production polish
 

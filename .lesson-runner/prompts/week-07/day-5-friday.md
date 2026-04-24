@@ -76,7 +76,7 @@ hooks/
 Copy and refine hooks from Lesson 4's exercises. Add an `index.ts` barrel file for clean imports.
 
 ### Step 4 — Project scaffolding (20 min)
-Either continue the Module 6 project or start fresh:
+Continue the React embroidery store from Module 6:
 - Set up the hook library
 - Create the mock API layer with simulated delays
 - Set up component structure with all the enhanced components
@@ -192,7 +192,7 @@ Next week covers React patterns and architecture: Context API for sharing cart s
 - [ ] Performance: theme toggle causes zero unnecessary re-renders (verified with counters)
 - [ ] All hooks from the library are integrated and working
 - [ ] Can explain the hook composition strategy (which hook for which concern) in own words
-- [ ] All exercise code saved in `workspace/week-07/day-5/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

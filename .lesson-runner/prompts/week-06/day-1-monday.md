@@ -252,7 +252,7 @@ If time remains: Build a `ProductQuickView` component — a compact card that sh
 - [ ] Shared `Product` and `ProductBadge` types extracted to `types/product.ts`
 - [ ] Can articulate a problem using the 5-part "asking for help" template
 - [ ] Can explain the difference between `children: React.ReactNode` and a regular string prop in own words
-- [ ] All exercise code saved in `workspace/week-06/day-1/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

@@ -10,8 +10,8 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: ES2022+ JavaScript, async/await, fetch, modules, closures, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — primitives, interfaces, unions, generics, type narrowing, discriminated unions
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types, template literals, DOM typing
-- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built component library, forms, product list, task board, messaging app, Recipe Book.
-- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built GitHub search, weather dashboard, OTP input, Rich Text Toolbar, Employee Directory, Country Data Dashboard.
+- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built reusable store components, product lists, forms, cart interactions, and the React embroidery storefront.
+- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built product fetching, persistent cart effects, performant filtering, custom hooks, refs, and store interaction patterns.
 - Module 8: React patterns & architecture — Context API, useReducer, error boundaries, Suspense, lazy loading, React Router, compound components. Built theme/auth/notification contexts, shopping cart, app shell, multi-page store routing, compound components, e-commerce storefront.
 - Module 9, Lesson 1: React 19 — use() hook, useTransition, Suspense-integrated data fetching. Built async data explorer with transitions and prefetching.
 
@@ -387,7 +387,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Built a multi-step checkout form (shipping, payment, review) using only React + Zod
 - [ ] Form data persists across steps and "Back" preserves entered values
 - [ ] Can explain when you might reach for a form library vs native forms, in own words
-- [ ] All exercise code saved in `workspace/week-09/day-2/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

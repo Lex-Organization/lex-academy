@@ -231,7 +231,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] All components use `cn()` and accept `className` for consumer overrides
 - [ ] Dark mode works across all components and layouts
 - [ ] Can explain when to use Flexbox vs. Grid in Tailwind in own words
-- [ ] All exercise code saved in `workspace/nextjs-store/`
+- [ ] All code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

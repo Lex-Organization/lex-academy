@@ -85,7 +85,7 @@ Explain that `GET` handlers with no dynamic data are cached by default. Using `R
 
 ## Hour 2: Guided Building (60 min)
 
-Build the REST API for the embroidery store. Work in `workspace/week-11/day-4/`.
+Build the REST API for the embroidery store. Work in `workspace/nextjs-store`.
 
 ### Step 1: Product Data Layer
 Create `lib/products.ts` with an in-memory store of 10 embroidery products. Define the `Product` type with: slug, name, description, price, category, sizes, colors, embroideryType, inStock, imageUrl, rating, reviewCount. Export CRUD functions.
@@ -193,7 +193,7 @@ The next lesson is build day. You will combine Server Components, Server Actions
 - [ ] Built a catalog export endpoint that triggers a file download
 - [ ] Returned correct HTTP status codes (200, 201, 204, 400, 401, 404)
 - [ ] Can explain when to use Route Handlers vs Server Actions in own words
-- [ ] All exercise code saved in `workspace/week-11/day-4/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

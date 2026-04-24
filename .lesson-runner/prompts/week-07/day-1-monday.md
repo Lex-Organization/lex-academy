@@ -241,7 +241,7 @@ If time remains: Add a "Recently Viewed" feature. When a user views a product de
 - [ ] Built a New Arrivals section with auto-refresh, manual refresh, and "last updated" timer
 - [ ] Debugged a useEffect bug using the systematic 6-step process
 - [ ] Can explain why the useEffect callback cannot be async directly, in own words
-- [ ] All exercise code saved in `workspace/week-07/day-1/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

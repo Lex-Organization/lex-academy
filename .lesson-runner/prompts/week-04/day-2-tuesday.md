@@ -186,7 +186,7 @@ type OrderState =
 
 ## Hour 2: Guided Building (60 min)
 
-Build the store's complete domain type system. Create files in `workspace/week-04/src/types/`.
+Build the store's complete domain type system. Create files in `workspace/vanilla-storesrc/types/`.
 
 ### Step 1: Core Types (`product.ts`)
 Define all product-related types using the patterns from Hour 1.
@@ -374,7 +374,7 @@ In the next lesson: generics. We'll build generic data structures (`Result<T>`, 
 - [ ] Built `ProductsState` and `OrderState` discriminated unions with exhaustive handling
 - [ ] Built complete store type system: product, cart, order, customer, API, variants, reviews, coupons, events
 - [ ] Can explain why discriminated unions are the most important TypeScript pattern in own words
-- [ ] All exercise code saved in `workspace/week-04/day-2/`
+- [ ] All exercise code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

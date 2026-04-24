@@ -192,7 +192,7 @@ If time remains: Build an "Undo/Redo" feature for the customizer. Use a ref to s
 - [ ] Built a Product Customizer with text positioning, auto-resize textarea, and ref-based interactions
 - [ ] Used forwardRef to expose the search input to the parent for keyboard shortcut focus
 - [ ] Can explain the difference between useRef and useState for storing values, in own words
-- [ ] All exercise code saved in `workspace/week-07/day-2/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

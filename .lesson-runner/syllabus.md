@@ -202,17 +202,17 @@
 
 ---
 
-## Phase 6: AI-Powered Development (Module 17)
+## Phase 6: AI-Assisted Engineering (Module 17)
 
-### Module 17 — Building with AI
+### Module 17 — AI Pairing for Engineers
 
 | Lesson | Focus | Store milestone |
 |--------|-------|-----------------|
-| Lesson 1 | AI dev tools landscape — how to evaluate and learn new tools quickly | AI-assisted component generation |
-| Lesson 2 | Vercel AI SDK — useChat, streamText, streaming UI patterns | Chat interface component |
-| Lesson 3 | AI chatbot — prompt engineering, conversation management, context | Store customer support chatbot |
-| Lesson 4 | Advanced AI — tool calling, structured output, AI-generated content | AI product descriptions, smart search |
-| Lesson 5 | Build day — AI-powered store features | Store with chatbot + AI features |
+| Lesson 1 | AI coding tools and agents — what they are, how they see context, and what engineers still own | AI collaboration guide + context packet |
+| Lesson 2 | Pairing with AI — task framing, acceptance criteria, plan review, and bounded implementation | AI-assisted store improvement |
+| Lesson 3 | Debugging with AI — repro steps, evidence, hypotheses, and root-cause fixes | AI-assisted bug fix with regression check |
+| Lesson 4 | Reviewing AI-generated code — diff reading, test quality, accessibility, and architecture risks | Review checklist + improved AI-assisted change |
+| Lesson 5 | Build day — ship a real store improvement with AI as a supervised pair programmer | Polished store improvement + collaboration log |
 | Lesson 6 | **Interview + Quiz** |
 
 ---

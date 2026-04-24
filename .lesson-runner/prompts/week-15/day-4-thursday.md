@@ -358,7 +358,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] 5 E2E tests passing: navigation, product detail, add to cart, checkout, protected routes
 - [ ] Added Playwright to the CI pipeline
 - [ ] Can explain the difference between unit tests, integration tests, and E2E tests
-- [ ] All test code saved in `workspace/nextjs-store/e2e/`
+- [ ] All test code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

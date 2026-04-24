@@ -26,4 +26,4 @@ Copy the **quiz prompt** from the extension and paste it into your AI assistant 
 - [ ] Quiz score recorded: ___/100
 - [ ] Reviewed wrong answers and understood corrections
 - [ ] Identified weakest topic of the week for weekend review
-- [ ] All week's exercise code organized in `workspace/week-06/`
+- [ ] All week's exercise code organized in `workspace/react-store`

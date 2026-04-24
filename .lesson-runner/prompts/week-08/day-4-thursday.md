@@ -256,7 +256,7 @@ Features: configurable delay, positioning (top/right/bottom/left), arrow.
 - [ ] Built a Select compound component with type-ahead and keyboard navigation
 - [ ] Built an AlertDialog compound component with focus trapping and body scroll lock
 - [ ] Can explain when to use compound components vs props-only vs headless, in own words
-- [ ] All exercise code saved in `workspace/week-08/day-4/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

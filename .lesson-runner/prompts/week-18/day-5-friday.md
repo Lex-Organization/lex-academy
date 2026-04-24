@@ -9,12 +9,12 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: JavaScript ES2022+, async/await, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — interfaces, unions, generics, type narrowing
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types
-- Module 6: React fundamentals — JSX, components, props, useState, built a recipe/movie app
+- Module 6: React fundamentals — JSX, components, props, useState, built the React embroidery store
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js App Router, routing, Server/Client Components, built a blog platform
-- Module 11: Next.js data fetching, Server Actions, caching/ISR, built a bookmarks manager
+- Module 10: Next.js App Router, routing, Server/Client Components, ported the embroidery store to Next.js
+- Module 11: Next.js data fetching, Server Actions, caching/ISR, built the store data and actions layer
 - Module 12: NextAuth.js, Prisma + Neon Postgres, images/fonts/metadata/SEO
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
@@ -216,7 +216,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Practiced the 60-second portfolio project pitch at least twice
 - [ ] Discussed and noted job search strategy and continued learning plan
 - [ ] Can confidently answer "Tell me about yourself" in 2 minutes in own words
-- [ ] All exercise code and notes saved in `workspace/week-18/day-5/`
+- [ ] Mock interview feedback and improvement plan organized for review
 
 ## Personality Reminder
 

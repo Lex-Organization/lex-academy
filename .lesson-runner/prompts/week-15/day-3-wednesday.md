@@ -197,7 +197,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Dark mode works across every page with no missed elements
 - [ ] Micro-interactions added: card hover lift, button press feedback, smooth transitions
 - [ ] All custom CSS removed — store uses only Tailwind utilities and design tokens
-- [ ] All exercise code saved in `workspace/nextjs-store/`
+- [ ] All code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

@@ -229,7 +229,7 @@ If time remains: Add a `NotificationContext` for the store. When a customer adds
 - [ ] All store prices (ProductCard, CartDrawer, OrderSummary) use CurrencyContext formatting
 - [ ] Context values are memoized to prevent unnecessary consumer re-renders
 - [ ] Can explain when to use Context vs prop drilling vs keeping state local, in own words
-- [ ] All exercise code saved in `workspace/week-08/day-1/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

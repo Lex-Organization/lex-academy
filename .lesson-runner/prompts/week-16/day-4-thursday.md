@@ -217,7 +217,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Built a custom thread color combobox with full ARIA roles, states, and keyboard navigation
 - [ ] Completed a full accessibility audit of the embroidery store with findings and fixes
 - [ ] Can explain the difference between `aria-label`, `aria-labelledby`, and `aria-describedby` in own words
-- [ ] All exercise code saved in `workspace/week-16/day-4/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

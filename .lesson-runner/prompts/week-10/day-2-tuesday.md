@@ -114,10 +114,10 @@ Run a quick quiz. For each file, state whether it is a Server Component or Clien
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store product pages with correct server/client boundaries. Work in `workspace/week-10/day-2/`.
+Build the embroidery store product pages with correct server/client boundaries. Work in `workspace/nextjs-store`.
 
 ### Step 1: Create the Project and Product Data Layer
-Create a new Next.js project (or continue from the previous lesson's). Create a `lib/products.ts` file with an array of 8 embroidery products:
+Continue the Next.js embroidery store from the previous lesson. Create a `lib/products.ts` file with an array of 8 embroidery products:
 - Each has: slug, name, price, description, imageUrl, category (t-shirts, hoodies, tote-bags, accessories), sizes (string[]), colors (string[]), rating, inStock, embroideryType (hand-stitched, machine, mixed)
 - Export `getProducts()`, `getProduct(slug)`, and `getProductsByCategory(category)` functions. This simulates a database.
 
@@ -194,7 +194,7 @@ In the next lesson we learn how Next.js handles loading states with `loading.tsx
 - [ ] Used the "children/props as Server Component inside Client Component" pattern at least once
 - [ ] All props crossing the boundary are serializable — no functions or Date objects
 - [ ] Can explain the `"use client"` directive and the "push boundary down" principle in own words
-- [ ] All exercise code saved in `workspace/week-10/day-2/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

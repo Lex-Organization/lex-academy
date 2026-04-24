@@ -276,7 +276,7 @@ async function loadUser(): Promise<User> {
 
 ## Hour 2: Guided Building (60 min)
 
-Build a type-safe event handler system. Create files in `workspace/week-04/src/events/`.
+Build a type-safe event handler system. Create files in `workspace/vanilla-storesrc/events/`.
 
 ### Step 1: Event Type Definitions (`event-types.ts`)
 Define a comprehensive set of application events using discriminated unions:
@@ -578,7 +578,7 @@ The next lesson is Build Day — we'll build a complete typed REST API client li
 - [ ] Built a type-safe event handler system with `BaseEvent`, discriminated union `AppEvent`, typed `EventBus` (where `on("ui:click", handler)` narrows the handler parameter), event processors, and middleware
 - [ ] Built a type-safe message processing pipeline with per-kind validators, a typed `HandlerRegistry`, composable filter chain, generic enrichment that preserves discriminated union narrowing, and a message router
 - [ ] Can explain why exhaustive checking with `never` is essential (adding a new union variant causes compile errors at every handler) in own words
-- [ ] All exercise code saved in `workspace/week-04/day-4/`
+- [ ] All exercise code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

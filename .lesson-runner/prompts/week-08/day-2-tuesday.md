@@ -267,7 +267,7 @@ If time remains: Add an "Order History" feature. After checkout completes, save 
 - [ ] Placing an order clears the cart and shows confirmation with order number
 - [ ] All actions use TypeScript discriminated unions with exhaustive handling
 - [ ] Can explain when to choose useReducer over useState, in own words
-- [ ] All exercise code saved in `workspace/week-08/day-2/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

@@ -10,8 +10,8 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 2: ES2022+ JavaScript, async/await, fetch, modules, closures, DOM manipulation, built a vanilla JS app
 - Module 4: TypeScript fundamentals — primitives, interfaces, unions, generics, type narrowing, discriminated unions
 - Module 5: TypeScript advanced — utility types, mapped types, conditional types, template literals, DOM typing
-- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built component library, forms, product list, task board, messaging app, Recipe Book.
-- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built GitHub search, weather dashboard, OTP input, Rich Text Toolbar, Employee Directory, Country Data Dashboard.
+- Module 6: React fundamentals — JSX, components, props, useState, events, conditional rendering, lists, composition, lifting state. Built reusable store components, product lists, forms, cart interactions, and the React embroidery storefront.
+- Module 7: React hooks deep dive — useEffect, useRef, forwardRef, useMemo, useCallback, React.memo, custom hooks. Built product fetching, persistent cart effects, performant filtering, custom hooks, refs, and store interaction patterns.
 - Module 8, Lesson 1: Context API — theme, auth, notification, and locale contexts.
 - Module 8, Lesson 2: useReducer — shopping cart with checkout flow state machine.
 - Module 8, Lesson 3: Error boundaries, Suspense, lazy loading, code splitting.
@@ -181,7 +181,7 @@ Discuss with the student:
 - "Which pattern was most valuable to learn this module?"
 - "How would you explain compound components to another developer?"
 - "What's the biggest architectural mistake you can now avoid?"
-- "How does this app compare to the Recipe Book from Module 6 in terms of architecture?"
+- "How does this store architecture compare to the first React version from Module 6?"
 
 ### Preview of Next Module (5 min)
 Next week dives into modern React: React 19's new features (`use()`, `useTransition`, `useActionState`), form handling with native forms + Zod, Context + useReducer for state management, and testing with Vitest and React Testing Library. We'll also refactor this e-commerce app with those modern tools.
@@ -204,7 +204,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Error boundaries prevent individual section crashes from breaking the entire app
 - [ ] FAQ section uses Accordion compound component
 - [ ] Can explain the architectural decisions (which pattern for which problem) in own words
-- [ ] All exercise code saved in `workspace/week-08/day-5/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

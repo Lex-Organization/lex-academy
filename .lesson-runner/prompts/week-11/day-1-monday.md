@@ -103,10 +103,10 @@ Explain that Server Components are not limited to `fetch`. You can query databas
 
 ## Hour 2: Guided Building (60 min)
 
-Build server-rendered product pages that fetch data properly. Work in `workspace/week-11/day-1/`.
+Build server-rendered product pages that fetch data properly. Work in `workspace/nextjs-store`.
 
 ### Step 1: Project Setup and Data API Helper
-Create a Next.js project. Build a typed fetch helper in `lib/api.ts`:
+Continue the Next.js embroidery store. Build a typed fetch helper in `lib/api.ts`:
 ```typescript
 async function fetchAPI<T>(url: string, options?: RequestInit): Promise<T>
 ```
@@ -208,7 +208,7 @@ In the next lesson we learn Server Actions — how to handle cart mutations, qua
 - [ ] Created product listing and detail pages with streaming Suspense sections
 - [ ] Implemented proper error handling with `notFound()` and `error.tsx`
 - [ ] Can explain why Server Component data fetching is simpler than `useEffect` in own words
-- [ ] All exercise code saved in `workspace/week-11/day-1/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

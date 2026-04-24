@@ -343,7 +343,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Ran Chrome DevTools Performance profiler and identified bottlenecks
 - [ ] All Lighthouse scores above 90 (Performance, Accessibility, Best Practices, SEO)
 - [ ] Can explain which CSS properties are cheap to animate and why
-- [ ] All exercise code saved in `workspace/nextjs-store/`
+- [ ] All code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

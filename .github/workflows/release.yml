@@ -26,14 +26,11 @@ jobs:
       - name: Install extension dependencies
         run: cd extension && pnpm install --frozen-lockfile
 
-      - name: Export course data
-        run: cd .lesson-runner && node export-prompts.js
-
-      - name: Copy course data to extension
-        run: cp .lesson-runner/course-data.json extension/media/course-data.json
+      - name: Test
+        run: pnpm test
 
       - name: Build extension
-        run: cd extension && pnpm build
+        run: pnpm build
 
       - name: Package .vsix
         run: cd extension && npx @vscode/vsce package --no-dependencies

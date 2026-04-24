@@ -192,7 +192,7 @@ If time remains: Add a "Compare Products" feature. The user can select up to 3 p
 - [ ] Built the full store layout: StoreHeader (cart badge) + ProductCatalog + CartDrawer sharing lifted cart state
 - [ ] Built a Wishlist feature with "Move to Cart" / "Move to Wishlist" transferring items between lists
 - [ ] Can explain when to lift state vs keep it local, using store examples, in own words
-- [ ] All exercise code saved in `workspace/week-06/day-4/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

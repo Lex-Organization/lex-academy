@@ -211,7 +211,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Order timeline component shows the embroidery workflow stages
 - [ ] Bulk operations work for selected orders
 - [ ] Can explain the difference between Sheet, Dialog, and AlertDialog and when to use each in own words
-- [ ] All exercise code saved in `workspace/week-16/day-3/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

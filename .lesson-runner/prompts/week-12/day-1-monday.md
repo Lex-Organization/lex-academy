@@ -84,7 +84,7 @@ Walk through the most common middleware use case for e-commerce: protecting rout
 
 ## Hour 2: Guided Building (60 min)
 
-Build auth middleware for the embroidery store. Work in `workspace/week-12/day-1/`.
+Build auth middleware for the embroidery store. Work in `workspace/nextjs-store`.
 
 ### Step 1: Project Setup
 Create a Next.js project with the embroidery store pages:
@@ -211,7 +211,7 @@ In the next lesson we implement real authentication with Auth.js — customer ac
 - [ ] Used `NextResponse.redirect()` and `NextResponse.rewrite()` correctly
 - [ ] Read and set cookies in middleware using `request.cookies` and `response.cookies`
 - [ ] Can explain the difference between redirect and rewrite in own words
-- [ ] All exercise code saved in `workspace/week-12/day-1/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

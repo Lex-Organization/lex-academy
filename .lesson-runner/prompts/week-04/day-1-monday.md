@@ -58,7 +58,7 @@ Explain that TypeScript is a structural type system layered on JavaScript -- it 
 
 **Exercise:** Set up a TypeScript project:
 ```bash
-mkdir workspace/week-04 && cd workspace/week-04
+mkdir workspace/vanilla-store && cd workspace/vanilla-store
 npm init -y
 npm install -D typescript
 npx tsc --init
@@ -192,7 +192,7 @@ function getCategoryIcon(cat: Category): string {
 
 ## Hour 2: Guided Building (60 min)
 
-Type the store's utility functions. Create files in `workspace/week-04/src/`.
+Type the store's utility functions. Create files in `workspace/vanilla-storesrc/`.
 
 ### Step 1: Price Utilities (`utils/price.ts`)
 ```typescript
@@ -334,7 +334,7 @@ In the next lesson: interfaces, type aliases, unions, intersections, and literal
 - [ ] Can explain dependencies vs devDependencies and semantic versioning
 - [ ] Configured ESLint and Prettier with format-on-save
 - [ ] Can explain why `strict: true` is non-negotiable in own words
-- [ ] All exercise code saved in `workspace/week-04/day-1/`
+- [ ] All exercise code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

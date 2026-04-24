@@ -174,7 +174,7 @@ If time remains: Add a "Recently Viewed" section below the product grid. When a 
 - [ ] Empty cart state shows a friendly "Your cart is empty" message
 - [ ] All list rendering uses stable, unique keys (product IDs, not array indices)
 - [ ] Can explain why array index keys are problematic for the cart list in own words
-- [ ] All exercise code saved in `workspace/week-06/day-3/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

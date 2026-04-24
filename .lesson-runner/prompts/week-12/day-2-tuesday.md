@@ -97,7 +97,7 @@ Explain the Credentials provider for email/password login. Cover why it is the m
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store with customer authentication. Work in `workspace/week-12/day-2/`.
+Build the embroidery store with customer authentication. Work in `workspace/nextjs-store`.
 
 ### Step 1: Project Setup and Auth Configuration
 Create a Next.js project with the embroidery store structure. Install `next-auth@beta`. Create:
@@ -222,7 +222,7 @@ In the next lesson we add a real database with Prisma and Neon Postgres. We will
 - [ ] Can explain the difference between cookies, sessions, and JWTs
 - [ ] Inspected the auth session cookie in Chrome DevTools Application tab
 - [ ] Can explain the OAuth authorization code flow in own words
-- [ ] All exercise code saved in `workspace/week-12/day-2/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

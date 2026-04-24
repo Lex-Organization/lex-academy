@@ -17,7 +17,7 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 9: Next.js fundamentals — App Router, routing, layouts, route groups, Server/Client Components, loading/error states, dynamic routes
 - Module 10: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers
 - Module 11: Next.js advanced — middleware, Auth.js, Prisma + Postgres, images/fonts/metadata/SEO
-- Module 12: Built an authenticated, database-backed bookmarks manager integrating all Next.js features
+- Module 12: Built an authenticated, database-backed embroidery store integrating all Next.js features
 - Module 13 Lesson 1: Embroidery store architecture — data models, wireframes, route map, component tree, Prisma schema
 
 **Today's focus:** Work estimation, ticket writing, sprint planning, and project scaffolding

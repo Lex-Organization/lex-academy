@@ -91,7 +91,7 @@ Cover the escape hatches and when to use them for the store:
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store with intentional caching strategies. Work in `workspace/week-11/day-3/`.
+Build the embroidery store with intentional caching strategies. Work in `workspace/nextjs-store`.
 
 ### Step 1: Create Data Functions with Timestamps
 Create `lib/data.ts` with functions that return data AND a timestamp of when they were called:
@@ -194,7 +194,7 @@ In the next lesson we learn Route Handlers — building REST API endpoints for `
 - [ ] Inventory always shows fresh data while product info is cached
 - [ ] Used Server Actions with `revalidatePath` and `revalidateTag` to bust caches after mutations
 - [ ] Can explain the difference between static and dynamic rendering in own words
-- [ ] All exercise code saved in `workspace/week-11/day-3/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

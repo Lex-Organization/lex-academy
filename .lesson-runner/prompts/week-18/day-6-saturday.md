@@ -4,7 +4,7 @@
 - **Lesson 1:** Portfolio strategy — project selection, architecture planning, Vercel setup, initial deployment
 - **Lesson 2:** Portfolio project core features — Server Actions, CRUD, main pages, the "impressive" feature, production deployment
 - **Lesson 3:** Portfolio project polish — animations, transitions, performance optimization, SEO metadata, accessibility audit, professional README, screenshots
-- **Lesson 4:** Interview preparation — JavaScript/TypeScript questions, React questions, Next.js questions, system design (chat app, dashboard), coding challenges (useDebounce, autocomplete, data transformation), behavioral STAR answers
+- **Lesson 4:** Interview preparation — JavaScript/TypeScript questions, React questions, Next.js questions, system design (store support inbox, admin dashboard), coding challenges (useDebounce, store search autocomplete, data transformation), behavioral STAR answers
 - **Lesson 5:** Full mock interview simulation — three rounds (behavioral + technical, live coding, system design + portfolio deep dive), detailed feedback, improvement plan, job search strategy
 
 ## What You Covered Over All 18 Weeks
@@ -64,7 +64,7 @@ The quiz should be scored out of 100 and should test deep understanding, not sur
 - [ ] Final quiz score recorded: ___/100
 - [ ] Reviewed wrong answers and understood corrections
 - [ ] Compared Module 1 knowledge to Module 18 knowledge — reflected on growth
-- [ ] All week's exercise code organized in `workspace/week-18/`
+- [ ] Final interview feedback, quiz results, and next steps organized for review
 - [ ] Portfolio project is live, polished, and ready to share with employers
 - [ ] Interview preparation document is complete with answers, talking points, and questions to ask
 - [ ] Course completed! Created a personal action plan for continued growth beyond the course

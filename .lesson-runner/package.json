@@ -1,9 +1,11 @@
 {
   "name": "lex-academy-curriculum",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.15.9",
   "private": true,
   "description": "Course content and export tooling for Lex: Academy",
   "scripts": {
-    "export": "node export-prompts.js"
+    "export": "node export-prompts.js",
+    "test": "node --test test/*.test.js"
   }
 }

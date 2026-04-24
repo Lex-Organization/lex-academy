@@ -357,7 +357,7 @@ In the next lesson, the migration begins. The student takes the store's JavaScri
 - [ ] Enabled strict mode in the store's tsconfig and counted/categorized the resulting errors
 - [ ] Fixed all strict-mode errors in the store's codebase (zero `npx tsc --noEmit` errors)
 - [ ] Can explain when to use `unknown` vs `any` for external data
-- [ ] All exercise code saved in `workspace/vanilla-store/`
+- [ ] All code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

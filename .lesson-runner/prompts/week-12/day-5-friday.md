@@ -13,15 +13,15 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 7: React hooks — useEffect, useRef, useMemo, useCallback, custom hooks, built a data dashboard
 - Module 8: React patterns — Context, useReducer, error boundaries, Suspense, compound components, built an e-commerce storefront
 - Module 9: React 19, native forms + Zod, Context + useReducer, testing with Vitest + Testing Library
-- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, built a blog platform
-- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a bookmarks/notes manager
+- Module 10: Next.js fundamentals — App Router, routing, layouts, Server/Client Components, loading/error states, dynamic routes, ported the embroidery store to Next.js
+- Module 11: Next.js data & server actions — data fetching, Server Actions, caching, Route Handlers, built a embroidery store data layer
 - Module 12, Lesson 1: Middleware — request interception, redirects, rewrites, auth guards
 - Module 12, Lesson 2: Authentication — Auth.js v5, GitHub OAuth, credentials, sessions, role-based access
 - Module 12, Lesson 3: Database — Prisma + Neon Postgres, schema, migrations, queries, relations
 - Module 12, Lesson 4: Images, fonts, metadata, SEO — next/image, next/font, generateMetadata, JSON-LD
 
 **This lesson's focus:** Integrate auth and database into the bookmarks app from Module 10
-**This lesson's build:** Authenticated bookmarks manager with real database persistence
+**This lesson's build:** Authenticated embroidery store with real database persistence
 
 **Story so far:** This week you learned middleware for request interception, Auth.js for real customer accounts, Prisma for database persistence, and Next.js optimization for images, fonts, and SEO. Today these all come together: you take the in-memory bookmarks app from Module 10 and rebuild it with real GitHub OAuth login, user-scoped Postgres data, and production-grade optimization. The transformation from prototype to production app happens in one session.
 
@@ -29,7 +29,7 @@ The student is building a real project throughout the course: **an embroidery e-
 
 ### Project: LinkVault v2 — Authenticated + Database-Backed
 
-Take the bookmarks/notes manager concept from Module 10 and rebuild it with real auth and database. Start fresh in `workspace/week-12/day-5/`.
+Take the embroidery store data layer concept from Module 10 and rebuild it with real auth and database. Continue in `workspace/nextjs-store`.
 
 ### Step 1: Define the Upgraded Architecture
 Walk through the differences from Module 10's version:
@@ -244,7 +244,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Loading skeletons and error boundaries in place for the app section
 - [ ] Complete auth flow works: sign in, use app, sign out, blocked from app
 - [ ] TypeScript compiles with zero errors (`npx tsc --noEmit`)
-- [ ] All exercise code saved in `workspace/week-12/day-5/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

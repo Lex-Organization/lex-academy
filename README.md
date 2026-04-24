@@ -33,7 +33,7 @@ Or in VS Code: `Ctrl+Shift+P` → **Extensions: Install from VSIX...** → selec
 | React | 6–9 | Components, hooks, state, routing, testing |
 | Next.js | 10–14 | App Router, Server Components, auth, DB, full-stack project |
 | Tailwind & UI | 15–16 | Tailwind CSS, shadcn/ui, Playwright, accessibility |
-| AI | 17 | Vercel AI SDK, chatbots, tool calling |
+| AI | 17 | AI pairing, coding agents, debugging, review workflows |
 | Portfolio | 18 | Deploy, polish, interview prep |
 
 **108 lessons. 5 lessons + 1 review per module. ~4 hours each.**

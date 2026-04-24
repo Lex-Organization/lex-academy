@@ -209,7 +209,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Rebuilt product cards using shadcn Card with Badge and Button composition
 - [ ] Built a customer account interface with order history, wishlist, and address book dialog
 - [ ] Can explain the difference between shadcn/ui and traditional npm component libraries in own words
-- [ ] All exercise code saved in `workspace/week-16/day-1/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

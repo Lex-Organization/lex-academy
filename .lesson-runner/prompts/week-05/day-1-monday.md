@@ -402,7 +402,7 @@ In the next lesson, TypeScript meets the browser. The student will learn to type
 - [ ] Used `ReturnType<typeof fn>` to extract a return type from an existing function without writing it manually
 - [ ] Built typed form state, API response types, and configuration types for the embroidery store using utility type composition
 - [ ] Updated at least one existing store module to use derived types instead of hand-written duplicates
-- [ ] All exercise code saved in `workspace/vanilla-store/`
+- [ ] All code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 

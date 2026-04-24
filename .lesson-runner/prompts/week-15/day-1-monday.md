@@ -189,7 +189,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Dark mode toggle works and all components render correctly in both themes
 - [ ] Tailwind config customized with brand colors and fonts for the embroidery store
 - [ ] Can explain the utility-first philosophy and its trade-offs vs. traditional CSS in own words
-- [ ] All exercise code saved in `workspace/nextjs-store/`
+- [ ] All code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

@@ -76,7 +76,7 @@ Explain `useActionState` (from React) for managing action return values and pend
 
 ## Hour 2: Guided Building (60 min)
 
-Build the embroidery store cart with full CRUD using Server Actions. Work in `workspace/week-11/day-2/`.
+Build the embroidery store cart with full CRUD using Server Actions. Work in `workspace/nextjs-store`.
 
 ### Step 1: Cart Data Store and Types
 Create `lib/cart.ts` with an in-memory store (a module-level Map keyed by a session placeholder — this resets on server restart, which is fine for learning). Define:
@@ -187,7 +187,7 @@ In the next lesson we dive deep into Next.js caching — request memoization, th
 - [ ] Built wishlist with move-to-cart and remove actions
 - [ ] Server-side validation returns errors displayed next to form fields
 - [ ] Can explain the difference between Server Actions and traditional API routes in own words
-- [ ] All exercise code saved in `workspace/week-11/day-2/`
+- [ ] All exercise code saved in `workspace/nextjs-store`
 
 ## Personality Reminder
 

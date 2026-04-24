@@ -212,7 +212,7 @@ If time remains: Add a "Sales Analytics" mini-dashboard showing: average product
 - [ ] Theme toggle causes zero ProductCard or CartItemRow re-renders (verified with counters)
 - [ ] Can explain O(1) vs O(n) vs O(n^2) with a practical React example
 - [ ] Can explain when NOT to use useMemo/useCallback (cost vs benefit) in own words
-- [ ] All exercise code saved in `workspace/week-07/day-3/`
+- [ ] All exercise code saved in `workspace/react-store`
 
 ## Personality Reminder
 

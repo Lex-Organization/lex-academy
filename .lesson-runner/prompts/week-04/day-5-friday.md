@@ -25,7 +25,7 @@ Build a reusable, type-safe REST API client that could be published as an npm pa
 
 ### Project Structure
 ```
-workspace/week-04/src/api-client/
+workspace/vanilla-storesrc/api-client/
   index.ts              — public API (re-exports)
   client.ts             — core HTTP client
   types.ts              — all type definitions
@@ -438,7 +438,7 @@ The next lesson is the interview + quiz review. Review TypeScript fundamentals �
 - [ ] Built response validators using type predicate factories (`string()`, `number()`, `object({ ... })`) that compose into `(value: unknown) => value is T`
 - [ ] Built a type-safe endpoint builder (`defineEndpoints`) where calling `api.getUser({ params: { id: "123" } })` returns `ApiResult<User>` and wrong params cause compile errors
 - [ ] Zero `any` types in the entire library, all compiling with `npx tsc --noEmit --strict`
-- [ ] All exercise code saved in `workspace/week-04/day-5/`
+- [ ] All exercise code saved in `workspace/vanilla-store`
 
 ## Personality Reminder
 
