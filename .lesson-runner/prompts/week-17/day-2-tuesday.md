@@ -147,6 +147,55 @@ Clean up:
 ### Next lesson preview
 Tomorrow you will focus on debugging with AI: reproducing bugs, forming hypotheses, giving AI useful evidence, and avoiding random patches.
 
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are practicing how to pair with AI on the existing Next.js store without giving up engineering ownership, review discipline, or product judgment.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Use AI to plan and implement one small, bounded improvement to the embroidery store**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Pairing with AI - framing tasks, reviewing plans, constraining scope, and iterating safely.
+- The expected outcome is present and reviewable: Use AI to plan and implement one small, bounded improvement to the embroidery store.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Pairing with AI - framing tasks, reviewing plans, constraining scope, and iterating safely. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update the AI collaboration log, review notes, or interview prep notes with what you practiced.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Chose one bounded store improvement suitable for AI-assisted work
 - [ ] Created `docs/ai-collaboration-log.md`

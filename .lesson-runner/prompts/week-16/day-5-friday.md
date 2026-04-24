@@ -196,9 +196,58 @@ Review the complete admin dashboard:
 2. Composing shadcn components (Card for stats, Table for data, Dialog for forms, Sheet for details) creates complex admin UIs from accessible building blocks
 3. The Command palette, keyboard shortcuts, and proper accessibility make the admin feel like a professional tool, not a tutorial project
 
-**Preview of the next module:** We'll explore building with AI — AI development tools, the Vercel AI SDK for adding a customer support chatbot and AI-powered product descriptions to the embroidery store.
+**Preview of the next module:** We'll explore working with AI as an engineer — how coding assistants and agents see context, where they help, where they fail, and how you stay responsible for the store.
 
-**Coming up next:** The store is feature-complete, professionally styled, and accessible. Next week: AI enters the picture. You will learn AI development tools, the Vercel AI SDK, and build AI-powered features — a shopping assistant chatbot, product recommendations, and intelligent search for the embroidery store.
+**Coming up next:** The store is feature-complete, professionally styled, and accessible. Next week: AI enters the workflow. You will learn how to frame tasks, create context packets, debug with evidence, review AI-generated code, and ship one bounded store improvement with AI as a supervised pair programmer.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **A complete admin dashboard for managing the embroidery business**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Full build day — polished admin dashboard for the embroidery store with product CRUD, order tables, and analytics.
+- The expected outcome is present and reviewable: A complete admin dashboard for managing the embroidery business.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Full build day — polished admin dashboard for the embroidery store with product CRUD, order tables, and analytics. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 

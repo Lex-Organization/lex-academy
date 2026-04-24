@@ -3,7 +3,7 @@
 ## What You Covered This Week
 - **Lesson 1:** Portfolio strategy — project selection, architecture planning, Vercel setup, initial deployment
 - **Lesson 2:** Portfolio project core features — Server Actions, CRUD, main pages, the "impressive" feature, production deployment
-- **Lesson 3:** Portfolio project polish — animations, transitions, performance optimization, SEO metadata, accessibility audit, professional README, screenshots
+- **Lesson 3:** Portfolio project polish — animations, transitions, performance optimization, SEO metadata, accessibility audit, professional README, and demo notes
 - **Lesson 4:** Interview preparation — JavaScript/TypeScript questions, React questions, Next.js questions, system design (store support inbox, admin dashboard), coding challenges (useDebounce, store search autocomplete, data transformation), behavioral STAR answers
 - **Lesson 5:** Full mock interview simulation — three rounds (behavioral + technical, live coding, system design + portfolio deep dive), detailed feedback, improvement plan, job search strategy
 
@@ -23,7 +23,7 @@
 - **Modules 13-14:** Full-Stack Store Project — architecture, sprint planning, core pages, checkout, admin, CI/CD
 - **Module 15:** Tailwind CSS — utility-first, layout, components, v4, theming
 - **Module 16:** Component libraries — shadcn/ui, forms, DataTable, accessibility
-- **Module 17:** AI development — AI tools, Vercel AI SDK, chatbots, tool calling
+- **Module 17:** AI-assisted engineering — AI tools, coding agents, context packets, debugging with evidence, and code review
 - **Module 18:** Job readiness — portfolio project, interview prep, mock interviews
 
 ## Today's Sessions
@@ -56,6 +56,58 @@ Copy the **quiz prompt** from the extension and paste it into your AI assistant 
 - Best practices and professional skills
 
 The quiz should be scored out of 100 and should test deep understanding, not surface recall.
+
+## Student Support
+
+### Before You Start
+No project folder is required for this lesson. Gather your notes, interview answers, glossary, and any previous feedback before starting.
+
+**Folder:** No working folder today; this lesson is notes, review, or interview practice.
+
+### Where This Fits
+You are turning the finished store into portfolio evidence and interview stories: what you built, why decisions mattered, and how you would explain the work to a team.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Final Comprehensive Assessment**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: the lesson topic.
+- The expected outcome is present and reviewable: the lesson deliverable.
+- Any notes, answers, or practice artifacts are organized where you can find them later.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Final Comprehensive Assessment. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Save the strongest answers, notes, or review feedback in your prep document.
+- Write one short reflection: what became clearer today, and what still needs practice.
+- Capture 2-3 vocabulary terms in your glossary so interview language keeps improving.
+
+### Module Checkpoint
+Checkpoint: you should be able to present the store, explain its architecture, and turn the work into interview evidence.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 - [ ] Completed final comprehensive mock interview covering all 18 weeks

@@ -19,7 +19,7 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
 - Module 16: shadcn/ui, complex forms, DataTable, Command palette, accessibility, built admin dashboard
-- Module 17: AI tools, Vercel AI SDK, chatbot development, tool calling, structured output, built AI app
+- Module 17: AI pairing, coding agents, context packets, debugging with evidence, and AI-assisted code review
 - Module 18, Lesson 1: Portfolio strategy, architecture planning, scaffold, Vercel setup
 - Module 18, Lesson 2: Portfolio project core features — CRUD, pages, data layer, impressive feature, deployment
 
@@ -132,7 +132,8 @@ Write a comprehensive README that sells the project:
 
 One-line description of what this is.
 
-![Screenshot](screenshot.png)
+## Product Demo Notes
+Short notes describing the primary user flow and the strongest parts of the build.
 
 ## Live Demo
 [project-name.vercel.app](https://project-name.vercel.app)
@@ -148,7 +149,7 @@ One-line description of what this is.
 - **Styling:** Tailwind CSS + shadcn/ui
 - **Database:** PostgreSQL (Neon) + Prisma ORM
 - **Auth:** NextAuth.js
-- **AI:** Vercel AI SDK (if applicable)
+- **AI-assisted workflow:** context packet, collaboration log, review notes (if applicable)
 - **Deployment:** Vercel
 
 ## Getting Started
@@ -170,13 +171,13 @@ One-line description of what this is.
 Brief description of the project structure and key decisions.
 ```
 
-### Step 3 — Screenshots and demo (15 min)
-Create visual assets:
-- Take 3-5 high-quality screenshots of the key pages
-- Include at least one mobile screenshot
-- Include a dark mode screenshot
-- Add screenshots to the README
-- Consider recording a short demo GIF (optional but impressive)
+### Step 3 — Demo notes and walkthrough (15 min)
+Create a concise demo aid:
+- Write the 3-5 key pages or flows you would show in a live demo
+- Include one mobile/responsive behavior you would point out
+- Include one accessibility or performance improvement you would point out
+- Add a short "How to demo this project" section to the README
+- Keep the demo aid written and lightweight so the student can use it during interviews
 
 ### Step 4 — Clean up the repository (10 min)
 Final repository hygiene:
@@ -227,6 +228,55 @@ Discuss how to present this project in different contexts:
 
 **Coming up next:** The project is deployed and polished. Now you need to talk about it. Next up: interview preparation — common frontend questions, system design basics, whiteboard coding practice, and behavioral prep. You will practice explaining every architectural decision you have made over 18 modules.
 
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are turning the finished store into portfolio evidence and interview stories: what you built, why decisions mattered, and how you would explain the work to a team.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **A production-ready, deployed portfolio project**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Polish, animations, performance, accessibility, SEO, and final Vercel deployment.
+- The expected outcome is present and reviewable: A production-ready, deployed portfolio project.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Polish, animations, performance, accessibility, SEO, and final Vercel deployment. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update the AI collaboration log, review notes, or interview prep notes with what you practiced.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 
 Before moving to the next day, ALL items must be checked:
@@ -237,7 +287,7 @@ Before moving to the next day, ALL items must be checked:
 - [ ] Performance optimized: Next.js Image, font optimization, dynamic imports where needed
 - [ ] SEO metadata added: page titles, descriptions, Open Graph tags, robots.txt
 - [ ] Accessibility audit completed with Lighthouse score 90+
-- [ ] Professional README written with screenshots, tech stack, and setup instructions
+- [ ] Professional README written with demo notes, tech stack, and setup instructions
 - [ ] Project deployed to Vercel and fully functional at the production URL
 - [ ] Repository cleaned up — no TODOs, console.logs, or unused files
 - [ ] 60-second demo script written and practiced

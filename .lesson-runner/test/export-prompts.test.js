@@ -39,6 +39,24 @@ test("parses the lesson contract from markdown", () => {
   ]);
 });
 
+test("parses alternate lesson focus and build labels", () => {
+  const parsed = parseDayContent(
+    `# Lesson 4 (Module 18) - Interview Preparation
+
+**This lesson's focus:** Interview preparation
+**This lesson's build:** Practice answers and coding exercise notes
+
+## Checklist
+- [ ] Prepared answers
+`,
+    "week-18",
+    "day-4-thursday.md"
+  );
+
+  assert.equal(parsed.focus, "Interview preparation");
+  assert.equal(parsed.build, "Practice answers and coding exercise notes");
+});
+
 test("rejects duplicate checklist text because progress uses item text identity", () => {
   const duplicateFixture = `# Module 1, Lesson 3 â€” Duplicate Checklist
 

@@ -19,7 +19,7 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
 - Module 16: shadcn/ui, complex forms, DataTable, Command palette, accessibility, built admin dashboard
-- Module 17: AI tools, Vercel AI SDK, chatbot development, tool calling, structured output, built AI app
+- Module 17: AI pairing, coding agents, context packets, debugging with evidence, and AI-assisted code review
 - Module 18, Lesson 1: Portfolio strategy — project selection, architecture planning, scaffold, Vercel setup, initial deployment
 
 **This lesson's focus:** Building the core features of the portfolio project — pages, data layer, main functionality
@@ -157,7 +157,7 @@ In the next lesson is the final build day — focus on polish:
 - Any remaining feature gaps to close
 - Performance optimizations to make
 - Animations or transitions to add
-- Final README updates and screenshots
+- Final README updates and demo notes
 
 ### Wrap-up (15 min)
 **Three key takeaways:**
@@ -168,6 +168,55 @@ In the next lesson is the final build day — focus on polish:
 **Preview of in the next lesson:** Final polish day — animations, performance, accessibility, SEO metadata, and making the deployed version shine.
 
 **Coming up next:** The features work, but "works" is not "shippable." Next up: visual polish, animations, performance optimization, accessibility checks, SEO metadata, and the final Vercel deployment. The project goes from MVP to production-quality.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are turning the finished store into portfolio evidence and interview stories: what you built, why decisions mattered, and how you would explain the work to a team.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **A working MVP of the portfolio project with all primary features functional**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Building the core features of the portfolio project — pages, data layer, main functionality.
+- The expected outcome is present and reviewable: A working MVP of the portfolio project with all primary features functional.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Building the core features of the portfolio project — pages, data layer, main functionality. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update the AI collaboration log, review notes, or interview prep notes with what you practiced.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 

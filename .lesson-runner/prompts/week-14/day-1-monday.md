@@ -372,6 +372,55 @@ Ask: "Should the cart survive a session expiration? What about a different user 
 ### Coming Up Next
 Customers can manage their accounts and track orders. But who manages the products and processes the orders? In the next lesson, the student builds the admin panel: product CRUD, order management with status updates, and an admin-only layout with sidebar navigation.
 
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Skim the previous module recap before changing code.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Customer account dashboard with profile editing, order history, order detail view, and auth flow hardening**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Customer account pages, order history, and protected routes with role-based access.
+- The expected outcome is present and reviewable: Customer account dashboard with profile editing, order history, order detail view, and auth flow hardening.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Customer account pages, order history, and protected routes with role-based access. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Account layout with sidebar navigation (Dashboard, Orders, Profile) and active link highlighting
 - [ ] Account dashboard showing welcome message and 3 most recent orders

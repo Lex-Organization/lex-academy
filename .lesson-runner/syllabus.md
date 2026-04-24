@@ -3,6 +3,7 @@
 > 4 hours/lesson, 5 lessons + review per module.
 > Running project: **Embroidery e-commerce store** — grows from static HTML to full-stack deployed app.
 > Philosophy: **Fundamentals over libraries.** Learn the platform, not the wrapper.
+> Student support: each lesson includes a starting-state check, expected outcome, acceptance criteria, stuck prompts, glossary practice, and portfolio evidence.
 
 ---
 

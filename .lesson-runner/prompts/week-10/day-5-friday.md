@@ -168,6 +168,55 @@ In the next lesson is interview and quiz day. Review all the concepts from this 
 
 **Coming up next:** The store is in Next.js but data is still mocked with hardcoded arrays. Next week: real data fetching in Server Components, Server Actions for cart mutations, caching strategies for performance, and REST API endpoints — the store gets its full-stack backend.
 
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Embroidery store ported to Next.js with full routing, loading/error states, and navigation**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Combine everything from this module into the complete embroidery store on Next.js.
+- The expected outcome is present and reviewable: Embroidery store ported to Next.js with full routing, loading/error states, and navigation.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Combine everything from this module into the complete embroidery store on Next.js. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Created the Next.js embroidery store project with TypeScript and Tailwind
 - [ ] Implemented three route groups with distinct layouts (storefront, account, checkout)

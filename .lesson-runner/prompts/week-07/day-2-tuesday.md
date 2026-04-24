@@ -141,7 +141,7 @@ Build a navigation that scrolls to product category sections:
 - A "Position" feature: the customer clicks on the t-shirt preview to position where the embroidery goes
   - Use a ref on the preview container to calculate click position relative to the image
   - Show a draggable text overlay at the clicked position
-- A "Screenshot" placeholder button (just log the preview dimensions from a ref — actual screenshot would use html2canvas)
+- A "Preview metrics" button (log the preview dimensions from a ref so the student understands layout measurement)
 - An auto-resizing textarea for "Special Instructions" (the textarea grows vertically with content using a ref to read `scrollHeight`)
 - A "Reset All" button that clears the text, resets position to center, resets font size, and refocuses the text input
 
@@ -181,6 +181,55 @@ If time remains: Build an "Undo/Redo" feature for the customizer. Use a ref to s
 **Preview of in the next lesson:** Performance optimization with `useMemo`, `useCallback`, and `React.memo` — making the product list render efficiently even with 100+ products.
 
 **End of lesson -- next lesson preview:** Everything works, but open React DevTools and watch the re-renders. Typing in the search box re-renders EVERY product card. With 150 products, that's slow. In the next lesson: useMemo, useCallback, and React.memo for performance optimization.
+
+## Student Support
+
+### Before You Start
+Open `workspace/react-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/react-store`
+
+### Where This Fits
+You are rebuilding the same embroidery store in React, keeping the product idea familiar while the component model, state patterns, routing, and tests become professional.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Search input auto-focus, product image zoom/pan, scroll-to-top button for the store**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: useRef for DOM access and mutable values, forwardRef for exposing DOM nodes, focus management patterns.
+- The expected outcome is present and reviewable: Search input auto-focus, product image zoom/pan, scroll-to-top button for the store.
+- Any code or project notes are saved under `workspace/react-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: useRef for DOM access and mutable values, forwardRef for exposing DOM nodes, focus management patterns. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 - [ ] Auto-focused the search input on mount using useRef

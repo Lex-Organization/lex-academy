@@ -194,8 +194,8 @@ What problem does this solve or what feature does it add?
 ## How to test
 Step-by-step instructions a reviewer can follow to verify your changes.
 
-## Screenshots
-Before/after screenshots if there are visual changes.
+## Visual notes
+Briefly describe any visible UI changes and how a reviewer can verify them.
 ```
 
 Write a PR description for today's Next.js migration work. For example: "Set up the embroidery store's route architecture with App Router, including storefront, account, and checkout route groups with distinct layouts." This is a skill you'll use daily at work.
@@ -209,6 +209,55 @@ Write a PR description for today's Next.js migration work. For example: "Set up 
 In the next lesson we tackle the most important mental model in modern Next.js: Server Components vs. Client Components. You will learn what runs on the server, what runs in the browser, where the boundary is, and how to use `"use client"` correctly — building server-rendered product pages with client-side cart interactions.
 
 **Coming up next:** The routing works, but every component uses `"use client"` right now. Next.js has a powerful concept called Server Components — components that render on the server, send zero JavaScript to the browser, and can access your database directly. In the next lesson: the Server Component mental model that changes how you think about rendering.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Skim the previous module recap before changing code.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Store routes: `/`, `/products`, `/products/[slug]`, `/cart`, `/checkout` — the full embroidery store skeleton in Next.js**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Next.js App Router architecture, file-based routing, page.tsx, layout.tsx, and route groups.
+- The expected outcome is present and reviewable: Store routes: `/`, `/products`, `/products/[slug]`, `/cart`, `/checkout` — the full embroidery store skeleton in Next.js.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Next.js App Router architecture, file-based routing, page.tsx, layout.tsx, and route groups. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 - [ ] Created a Next.js project with App Router and TypeScript in `workspace/nextjs-store`

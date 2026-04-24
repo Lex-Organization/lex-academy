@@ -65,7 +65,6 @@ export default defineConfig({
   testDir: './e2e',
   baseURL: 'http://localhost:3000',
   use: {
-    screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
   webServer: {
@@ -287,7 +286,6 @@ Review all 5+ E2E tests. Check for:
 Walk through `playwright.config.ts` options the student should know:
 - **`projects`:** Running tests in multiple browsers (Chromium, Firefox, WebKit)
 - **`retries`:** Auto-retry flaky tests in CI (`retries: process.env.CI ? 2 : 0`)
-- **`screenshot: 'only-on-failure'`:** Automatically captures a screenshot when a test fails — invaluable for debugging in CI
 - **`trace: 'on-first-retry'`:** Records a trace file you can open in Playwright's trace viewer to see exactly what happened
 - **`timeout`:** Global test timeout (default 30s)
 
@@ -296,7 +294,7 @@ Show the student the Playwright trace viewer:
 npx playwright test --trace on
 npx playwright show-report
 ```
-Click a test, open the trace — show the timeline of actions, screenshots at each step, and network requests.
+Click a test, open the trace — show the timeline of actions, DOM snapshots, console output, and network requests.
 
 ### Running in CI (20 min)
 Add Playwright to the GitHub Actions CI workflow from Module 12.
@@ -349,6 +347,55 @@ npx playwright test --ui             # interactive UI mode
 **Preview of in the next lesson:** CSS animations and web performance — we'll make the store feel alive with smooth transitions and animations, then profile it with Chrome DevTools and Lighthouse to get all scores above 90.
 
 **Coming up next:** The store is restyled and tested. But the UI feels static — hover effects are instant, the cart drawer pops open without transition, and loading states just blink in. Next up: CSS transitions and keyframe animations for polished micro-interactions, plus a Lighthouse audit to push all performance scores above 90.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **5+ E2E tests covering navigation, product viewing, cart operations, checkout flow, and protected routes**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: End-to-end testing with Playwright — why E2E testing exists, installing Playwright, writing tests that simulate real user flows through the embroidery store.
+- The expected outcome is present and reviewable: 5+ E2E tests covering navigation, product viewing, cart operations, checkout flow, and protected routes.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: End-to-end testing with Playwright — why E2E testing exists, installing Playwright, writing tests that simulate real user flows through the embroidery store. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 

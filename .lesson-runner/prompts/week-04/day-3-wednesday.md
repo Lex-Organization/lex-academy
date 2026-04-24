@@ -356,6 +356,55 @@ In the next lesson: type narrowing, type guards, and discriminated unions in dep
 
 **End of lesson -- next lesson preview:** You can write generic functions. But what about functions that need to handle DIFFERENT types differently? A product variant that's a "size" variant needs a size chart, while a "color" variant needs a color swatch. In the next lesson: type narrowing and type guards.
 
+## Student Support
+
+### Before You Start
+Open `workspace/vanilla-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/vanilla-store`
+
+### Where This Fits
+You are growing the vanilla JavaScript version of the embroidery store. The goal is to understand the platform before frameworks enter the picture.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Generic data structures (Result<T>, List<T>) for the store**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Generic functions, interfaces, constraints.
+- The expected outcome is present and reviewable: Generic data structures (Result<T>, List<T>) for the store.
+- Any code or project notes are saved under `workspace/vanilla-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Generic functions, interfaces, constraints. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Wrote generic `findById<T>`, `groupBy<T>`, `getProperty<T, K>`, `merge<A, B>` functions
 - [ ] Defined generic types: `Result<T, E>`, `PaginatedResponse<T>`, `AsyncState<T>`, `TypedEventEmitter<Events>`

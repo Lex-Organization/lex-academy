@@ -68,10 +68,10 @@ function parseDayContent(raw, weekDir, filename) {
   const titleMatch = raw.match(/^#\s+.+?(?:—|â€”|-)\s*(.+)$/m);
   const title = titleMatch ? titleMatch[1].trim() : slug;
 
-  const focusMatch = raw.match(/\*\*Today's focus:\*\*\s*(.+)/);
+  const focusMatch = raw.match(/\*\*(?:Today's|This lesson's) focus:\*\*\s*(.+)/);
   const focus = focusMatch ? focusMatch[1].trim() : "";
 
-  const buildMatch = raw.match(/\*\*Today's build:\*\*\s*(.+)/);
+  const buildMatch = raw.match(/\*\*(?:Today's|This lesson's) build:\*\*\s*(.+)/);
   const build = buildMatch ? buildMatch[1].trim() : "";
 
   const checklistSection = getSection(raw, "Checklist");

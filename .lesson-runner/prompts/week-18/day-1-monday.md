@@ -19,12 +19,12 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
 - Module 16: shadcn/ui, complex forms, DataTable, Command palette, accessibility, built admin dashboard
-- Module 17: AI tools, Vercel AI SDK, chatbot development, tool calling, structured output, built AI app
+- Module 17: AI pairing, coding agents, context packets, debugging with evidence, and AI-assisted code review
 
 **This lesson's focus:** Portfolio strategy — project selection, scope, architecture planning, Vercel setup
 **This lesson's build:** A complete project plan and initial Vercel deployment setup for a portfolio-worthy project
 
-**Story so far:** Fifteen weeks of building: HTML and CSS, JavaScript, TypeScript, React, Next.js, databases, auth, Tailwind, shadcn/ui, AI features. The embroidery store evolved from a static HTML page into a full-stack, AI-enhanced production application. Now it is time to package everything you have learned into a portfolio that gets you hired. This lesson you plan a portfolio-worthy project, set up Vercel deployment, and make the strategic decisions about what to build and how to present it.
+**Story so far:** Seventeen modules of building: HTML and CSS, JavaScript, TypeScript, React, Next.js, databases, auth, Tailwind, shadcn/ui, testing, accessibility, deployment, and AI-assisted engineering. The embroidery store evolved from a static HTML page into a full-stack production application with a clear engineering story. Now it is time to package everything you have learned into a portfolio that gets you hired. This lesson you plan how to present the store, set up deployment polish, and make strategic decisions about what to highlight.
 
 ## Hour 1: Concept Deep Dive (60 min)
 
@@ -47,7 +47,7 @@ Help the student choose what to build or polish for their portfolio:
 Review what they've built:
 - Module 12 full-stack app (already has auth, CRUD, DB)
 - Module 14 admin dashboard (complex UI, data tables, charts)
-- Module 15 AI application (cutting-edge feature, impressive demo)
+- Module 17 AI collaboration workflow (professional process, review discipline, strong talking point)
 Pick the strongest one and elevate it to portfolio quality.
 
 **Option 2: Build a new capstone project**
@@ -61,7 +61,7 @@ If none of the existing projects feel portfolio-worthy, plan a new one that show
 - Uses Next.js App Router + TypeScript + Tailwind + shadcn/ui
 - Has authentication (NextAuth.js)
 - Has a database (Prisma + Neon Postgres)
-- Has at least one "impressive" feature (AI integration, real-time, complex UI)
+- Has at least one "impressive" feature or workflow (real-time behavior, complex UI, admin tooling, accessibility, performance, or AI-assisted engineering process)
 - Looks professional — someone should mistake it for a real product
 - Can be explained in 30 seconds
 
@@ -95,7 +95,7 @@ Set up Vercel for deployment from day one:
 
 ### 1.5 — Professional README and Repository Setup (5 min)
 Set up the repository for professional presentation:
-- Write a README with: project title, one-line description, screenshot (placeholder for now), tech stack badges, setup instructions, live demo link
+- Write a README with: project title, one-line description, demo preview or short product description, tech stack badges, setup instructions, live demo link
 - Set up the `.env.example` file (without real values)
 - Create a clean `.gitignore`
 - Make meaningful commit messages from the start
@@ -135,7 +135,7 @@ Set up authentication:
 Build the public-facing page:
 - Hero section with project name, tagline, and CTA
 - Features section highlighting 3-4 key features
-- A screenshot or demo preview (can be placeholder for now)
+- A demo preview or short product walkthrough (can be placeholder for now)
 - Footer with links
 - This page should be visually impressive — it's the first thing visitors see
 
@@ -165,11 +165,11 @@ The student should focus on the single most important feature of their chosen pr
 - Add CRUD operations through Server Actions
 - Add one feature that goes beyond "standard dashboard" (AI insights, export functionality, real-time notifications)
 
-**If polishing the AI app (Module 15):**
-- Add database persistence for conversations/sessions
-- Add user authentication so each user has their own data
-- Polish the UI to professional standards
-- Add one more impressive tool or feature
+**If polishing the AI collaboration workflow (Module 17):**
+- Add a clear AI collaboration guide to the store README or docs
+- Include one polished example of a bounded AI-assisted change
+- Document how you reviewed, tested, and verified the change
+- Add one interview-ready paragraph about what engineers still own when pairing with AI
 
 **If building new:**
 - Implement the core data model (CRUD operations)
@@ -214,6 +214,55 @@ Discuss how to position this project:
 **Preview of in the next lesson:** We'll build the core features of the portfolio project — data layer, main pages, and the key functionality that makes it impressive.
 
 **Coming up next:** The plan is set and the scaffold is deployed. In the next lesson you build the core features — pages, data layer, and the main functionality that makes the project portfolio-worthy.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Skim the previous module recap before changing code.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are turning the finished store into portfolio evidence and interview stories: what you built, why decisions mattered, and how you would explain the work to a team.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **A complete project plan and initial Vercel deployment setup for a portfolio-worthy project**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Portfolio strategy — project selection, scope, architecture planning, Vercel setup.
+- The expected outcome is present and reviewable: A complete project plan and initial Vercel deployment setup for a portfolio-worthy project.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Portfolio strategy — project selection, scope, architecture planning, Vercel setup. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update the AI collaboration log, review notes, or interview prep notes with what you practiced.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 

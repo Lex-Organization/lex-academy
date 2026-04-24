@@ -101,7 +101,7 @@ git push origin feature/improve-product-card
 Walk through the anatomy of a good PR:
 - **Title:** Short, descriptive (matches the commit convention)
 - **Description:** What changed, why, and how to test it
-- **Screenshots:** If there is a visual change, show before/after
+- **Visual notes:** If there is a visual change, describe what changed and how to verify it
 - **Linked issues:** Reference any related tickets from the sprint board
 
 **Exercise:** Have the student write a PR description for their feature branch:
@@ -119,8 +119,8 @@ to a specific "New" section.
 3. The new product should show a "New" badge in the top-right corner
 4. Products older than 7 days should not show the badge
 
-## Screenshots
-[Before and after comparison]
+## Visual notes
+[Short before/after description and verification notes]
 ```
 
 ### 5. Code Review Process
@@ -399,6 +399,55 @@ Steps:
 
 ### Coming Up Next
 The development workflow is professional: branches, CI, and preview deploys. In the next lesson, the student does the final production polish: edge case handling, responsive QA at every breakpoint, consistent error messages, meta tags, and a complete demo of the finished store.
+
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. Run the project if this is a build lesson, then make sure the previous lesson's checklist is complete.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **GitHub repo with branches, a CI pipeline running lint + typecheck + tests on every push, and Vercel preview deploys**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Git workflow, pull requests, and CI/CD with GitHub Actions.
+- The expected outcome is present and reviewable: GitHub repo with branches, a CI pipeline running lint + typecheck + tests on every push, and Vercel preview deploys.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Git workflow, pull requests, and CI/CD with GitHub Actions. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 - [ ] Project is a git repo with a clean commit history

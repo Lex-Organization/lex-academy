@@ -57,6 +57,58 @@ After completing the interview and quiz, review your performance across all 14 w
 - How has your confidence grown since Module 1?
 - What would you do differently if you started the embroidery store project again?
 
+## Student Support
+
+### Before You Start
+Open `workspace/nextjs-store` and start from the last committed version of the store. This is a review day, so gather the week's code, notes, and questions before starting.
+
+**Folder:** `workspace/nextjs-store`
+
+### Where This Fits
+You are evolving the store into the production Next.js version: full-stack data, auth, admin flows, design systems, accessibility, testing, and deployment quality.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Interview & Quiz (Mid-Course Comprehensive Review)**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: the lesson topic.
+- The expected outcome is present and reviewable: the lesson deliverable.
+- Any code or project notes are saved under `workspace/nextjs-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Interview & Quiz (Mid-Course Comprehensive Review). Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make sure the week's finished work is committed with clear messages.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### Module Checkpoint
+Checkpoint: the Next.js store should now support real full-stack product, cart, checkout, auth, data, and deployment workflows.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Completed mock interview (comprehensive, Modules 1-14)
 - [ ] Reviewed interview feedback and noted areas for improvement

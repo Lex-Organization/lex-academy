@@ -219,6 +219,55 @@ If time remains: Add a `NotificationContext` for the store. When a customer adds
 
 **Coming up next:** Context handles shared state, but the cart logic — add, remove, update quantity, apply discount — is getting tangled in `useState`. In the next lesson: `useReducer`, a pattern for complex state transitions where every change is an explicit, debuggable action.
 
+## Student Support
+
+### Before You Start
+Open `workspace/react-store` and start from the last committed version of the store. Skim the previous module recap before changing code.
+
+**Folder:** `workspace/react-store`
+
+### Where This Fits
+You are rebuilding the same embroidery store in React, keeping the product idea familiar while the component model, state patterns, routing, and tests become professional.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **CartContext (items, total, add/remove) and ThemeContext (light/dark) for the embroidery store**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Context API — solving prop drilling, creating providers, consuming context, and avoiding unnecessary re-renders.
+- The expected outcome is present and reviewable: CartContext (items, total, add/remove) and ThemeContext (light/dark) for the embroidery store.
+- Any code or project notes are saved under `workspace/react-store`.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Context API — solving prop drilling, creating providers, consuming context, and avoiding unnecessary re-renders. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Make a small, descriptive git commit for today's finished work.
+- Add or update one README/dev-note sentence explaining what changed and why.
+- Record one decision you made today: the tradeoff, the alternative, and why this choice fits the store.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
+
 ## Checklist
 - [ ] Built CartProvider with add/remove/update/clear and computed totals, consumed via useCartContext()
 - [ ] Built ThemeProvider with light/dark/system support, CSS integration, and localStorage persistence

@@ -19,7 +19,7 @@ The student is building a real project throughout the course: **an embroidery e-
 - Module 13: Full-stack Next.js project — CRUD, auth, user-scoped data, production polish
 - Module 15: Tailwind CSS — utility-first, layout, components, v4 features, redesigned Module 12 project
 - Module 16: shadcn/ui, complex forms, DataTable, Command palette, accessibility, built admin dashboard
-- Module 17: AI tools, Vercel AI SDK, chatbot development, tool calling, structured output, built AI app
+- Module 17: AI pairing, coding agents, context packets, debugging with evidence, and AI-assisted code review
 - Module 18, Lesson 1: Portfolio strategy, architecture planning, Vercel setup
 - Module 18, Lesson 2: Portfolio project core features — CRUD, pages, data layer
 - Module 18, Lesson 3: Portfolio project polish — animations, performance, SEO, accessibility, deployment
@@ -287,6 +287,55 @@ Create a personal interview preparation document:
 **Preview of in the next lesson:** Full mock interview simulation — behavioral, technical, and live coding rounds, just like a real interview.
 
 **Coming up next:** The final lesson. Three full mock interview simulations — behavioral, technical, and live coding — with feedback after each round. This is the dress rehearsal before the real thing.
+
+## Student Support
+
+### Before You Start
+No project folder is required for this lesson. Gather your notes, interview answers, glossary, and any previous feedback before starting.
+
+**Folder:** No working folder today; this lesson is notes, review, or interview practice.
+
+### Where This Fits
+You are turning the finished store into portfolio evidence and interview stories: what you built, why decisions mattered, and how you would explain the work to a team.
+
+### Expected Outcome
+By the end of this lesson, the student should have: **Practice answers, system design notes, and coding exercise solutions**.
+
+### Acceptance Criteria
+- You can explain today's focus in your own words: Interview preparation — common frontend questions, system design basics, whiteboard coding.
+- The expected outcome is present and reviewable: Practice answers, system design notes, and coding exercise solutions.
+- Any notes, answers, or practice artifacts are organized where you can find them later.
+- You tested or reviewed the work using the lesson's instructions, not just by assuming it is done.
+- You can name one thing you would improve next if you had another hour.
+
+### If You Get Stuck
+Copy one of these prompts into the assistant instead of pushing through silently:
+
+```text
+I am stuck on today's focus: Interview preparation — common frontend questions, system design basics, whiteboard coding. Ask me one diagnostic question at a time and help me find the smallest next step. Do not solve the whole lesson for me.
+```
+
+```text
+Review my current work against the acceptance criteria for this lesson. Tell me what is already solid, what is missing, and the next smallest fix.
+```
+
+```text
+Give me a hint, not the answer. I want to understand the concept and make the next edit myself.
+```
+
+### Glossary Builder
+Add 2-3 terms from today to `docs/glossary.md`. For each term, write one plain-English definition and one sentence about how it showed up in the embroidery store.
+
+### Portfolio Evidence
+- Save the strongest answers, notes, or review feedback in your prep document.
+- Write one short reflection: what became clearer today, and what still needs practice.
+- Capture 2-3 vocabulary terms in your glossary so interview language keeps improving.
+
+### AI Pairing Guardrails
+- The assistant may explain, review, and suggest; the student still owns the final decision.
+- Prefer hints and small steps before full solutions.
+- Keep changes bounded to today's goal and acceptance criteria.
+- Never paste secrets, API keys, private customer data, or proprietary code into an AI tool.
 
 ## Checklist
 

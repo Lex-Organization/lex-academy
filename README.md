@@ -45,6 +45,7 @@ Or in VS Code: `Ctrl+Shift+P` → **Extensions: Install from VSIX...** → selec
 - **"Go deeper" mode** — optional deep dives for curious learners
 - **One continuous project** — every lesson builds on the last
 - **Real-world practices** — git, tickets, code review, sprint planning, CI/CD
+- **Student support rails** — each lesson includes starting state, expected outcome, acceptance criteria, stuck prompts, glossary practice, and portfolio evidence
 
 ## Philosophy
 
