@@ -66,7 +66,7 @@ Lex: Academy does not collect telemetry, call external services, or send your co
 Install from the VS Code Marketplace once published, or install a packaged `.vsix` from GitHub Releases:
 
 ```bash
-code --install-extension lex-academy-1.0.2.vsix
+code --install-extension lex-academy-frontend-1.0.4.vsix
 ```
 
 Marketplace installs receive normal VS Code extension updates when new versions are published.

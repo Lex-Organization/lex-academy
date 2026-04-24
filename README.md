@@ -13,7 +13,7 @@ Once published, install **Lex: Academy** from the VS Code Marketplace for normal
 For manual installation, download the latest `.vsix` from [Releases](https://github.com/Lex-Organization/lex-academy/releases), then:
 
 ```bash
-code --install-extension lex-academy-1.0.2.vsix
+code --install-extension lex-academy-frontend-1.0.4.vsix
 ```
 
 Or in VS Code: `Ctrl+Shift+P` -> **Extensions: Install from VSIX...** -> select the file.
@@ -80,7 +80,7 @@ The extension package lives in `extension/`. Release builds are produced by:
 pnpm package
 ```
 
-Publishing to the VS Code Marketplace is done with `@vscode/vsce` from the extension folder after authenticating the `lex-code` publisher.
+Publishing to the VS Code Marketplace is done with `@vscode/vsce` from the extension folder after authenticating the **Lex Organization** publisher. The Marketplace extension ID is `lex-organization.lex-academy-frontend`.
 
 ## License
 

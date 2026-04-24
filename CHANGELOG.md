@@ -1,7 +1,13 @@
 # Changelog
 
+## 1.0.4
+
+- Updated the Marketplace publisher identifier to `lex-organization` for Lex Organization.
+- The Marketplace extension ID is now `lex-organization.lex-academy-frontend`.
+
 ## 1.0.3
 
+- Renamed the extension package identity to `lex-academy-frontend` so it can publish separately from other Lex Code extensions.
 - Prepared the extension for Marketplace publishing with a PNG listing icon, gallery banner metadata, stronger keywords, and clearer extension metadata.
 - Rewrote the Marketplace README around audience, workflow, curriculum, privacy, requirements, and install/update behavior.
 - Aligned the root README with the Marketplace positioning while keeping developer setup instructions.

@@ -1,6 +1,6 @@
 {
-  "name": "lex-academy",
-  "version": "1.0.3",
+  "name": "lex-academy-frontend",
+  "version": "1.0.4",
   "packageManager": "pnpm@9.15.9",
   "private": true,
   "description": "18-module interactive frontend engineering course delivered as a VS Code extension",

@@ -1,10 +1,10 @@
 {
-  "name": "lex-academy",
+  "name": "lex-academy-frontend",
   "displayName": "Lex: Academy",
   "packageManager": "pnpm@9.15.9",
   "description": "An 18-module frontend engineering course in VS Code: build one real store with AI-guided lessons.",
-  "version": "1.0.3",
-  "publisher": "lex-code",
+  "version": "1.0.4",
+  "publisher": "lex-organization",
   "icon": "media/icon.png",
   "license": "MIT",
   "homepage": "https://github.com/Lex-Organization/lex-academy",
